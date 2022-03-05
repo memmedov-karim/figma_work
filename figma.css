@@ -1,5 +1,8 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100&family=Roboto+Serif:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100&family=Roboto+Serif:wght@500&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body{
     font-family: Roboto;
 }
@@ -14,6 +17,7 @@ body{
     width: 100%;
 }
 .sec{
+    /* width: 1440px; */
     
     height: 150vh;
 }
@@ -33,37 +37,37 @@ body{
     margin-left: 122px;
     margin-top: 29px;
     font-family: Roboto Slab;
-font-style: normal;
-font-weight: bold;
-font-size: 80px;
-line-height: 101.38%;
-/* or 81px */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 101.38%;
+    /* or 81px */
 
 
-color: #000000;
+    color: #000000;
 
 }
 .par1{
     width: 414px;
-height: 62px;
-margin-left: 122px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 150%;
-/* or 30px */
+    height: 62px;
+    margin-left: 122px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
 
 
-color: #000000;
+    color: #000000;
 }
 .par{
     width: 483.63px;
     margin-top: 87.62px;
-height: 200px;
-background: #1E4681;
-border-radius: 5px;
-margin-left: 409.39px;
+    height: 200px;
+    background: #1E4681;
+    border-radius: 5px;
+    margin-left: 409.39px;
 
 
 }
@@ -72,16 +76,16 @@ margin-left: 409.39px;
     margin-left: 26.02px;
     margin-top: 19.26px;
     width: 430.59px;
-height: 113px;
-font-family: Roboto Slab;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 130%;
-/* or 32px */
+    height: 113px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
 
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 .par3{
     display: inline-block;
@@ -90,23 +94,23 @@ color: #FFFFFF;
     width: 280.5px;
     height: 45.64px;
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 130%;
-/* or 26px */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
 
-text-align: right;
+    text-align: right;
 
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 .man{
     margin-top: 0;
     
     width: 304px;
-height: 356px;
-z-index: 1;
+    height: 356px;
+    z-index: 1;
 
 
 }
@@ -121,7 +125,7 @@ z-index: 1;
     z-index: -1;
 
     width: 274px;
-height: 41px;
+    height: 41px;
 
 }
 .span1{
@@ -131,13 +135,13 @@ height: 41px;
     height: 32px;
     margin-right: 25px;
     font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 115%;
-/* or 23px */
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    /* or 23px */
 
 
-color: #000000;
+    color: #000000;
 
 
 }
@@ -146,28 +150,28 @@ color: #000000;
     width: 130px;
     height: 32px;
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 115%;
-/* or 23px */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    /* or 23px */
 
 
-color: #000000;
+    color: #000000;
 }
 .span3{
     display: inline-block;
     width: 130px;
     height: 32px;
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 115%;
-/* or 23px */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    /* or 23px */
 
 
-color: #000000;
+    color: #000000;
 
 }
 .globe{
@@ -212,4 +216,98 @@ color: #000000;
 }
 .section7{
     border: 1px solid black;
+    height: 390px;
+    background: #000000;
+}
+.logo_mobile_white{
+    width: 115px;
+    height: 68px;
+    margin-left: 122px;
+    margin-top: 50px;
+    color: white;
+}
+.white_phone{
+    width: 27px;
+    height: 27px;
+    margin-left: 700px;
+    margin-top: 54px;
+    margin-right: 22px;
+}
+.span_phone{
+    width: 230px;
+    height: 40px;
+    margin-top: 59px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+    /* or 25px */
+
+
+    color: #FFFFFF;
+}
+.white_mail{
+    width: 27px;
+    height: 18px;
+    margin-left: 937px;
+    margin-top: 25px;
+    margin-right: 22px;
+}
+.span_mail{
+    width: 269px;
+    height: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+    /* or 25px */
+
+
+    color: #FFFFFF;
+}
+.social_media{
+    display: flex;
+    justify-content: start;
+    margin-left: 122px;
+    margin-top: -18px;
+}
+.noroot4{
+    width: 33px;
+    height: 33px;
+    margin-right: 18px;
+
+}
+.fb{
+    width: 32px;
+    height: 32px;
+    margin-right: 21px;
+
+}
+.vk{
+    width: 35px;
+    height: 35px;
+    margin-right: 25px;
+
+}
+.wp{
+    width: 34px;
+    height: 34px;
+
+}
+.date{
+    width: 230px;
+    margin-left: 122px;
+    margin-top:146px;
+    height: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 101.38%;
+    /* or 18px */
+
+
+color: #FFFFFF
 }
