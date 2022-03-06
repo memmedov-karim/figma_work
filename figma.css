@@ -156,8 +156,89 @@ color: #000000;
 .section3{
     border: 1px solid black;
 }
+
+/* Namiq branch section 4 yazdimki qarismasin */
+
 .section4{
     border: 1px solid black;
+    width: 100%;
+    height: 300vh;
+}
+
+.wrapper {
+    margin: 0 5.9% 0 5.8%;
+}
+
+.container4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section4 h1 {
+    margin: 0 28.75% 6.6% 8.4%;
+    width: 62.8%;
+    height: 6.5%;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    /* or 56px */
+
+
+    color: #000000;
+}
+.container4 .card{
+    margin: 2.6%;
+    width: 27.7%;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.container4 .card h3 {
+    display: inline-block;
+    margin: 2.8% 3.5% 0 5%;
+    width: 91.5%;
+    height: 9.8%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    /* identical to box height, or 39px */
+
+
+    color: #000000;
+}
+
+.card img {
+    width: 100%;
+}
+
+.cd8 h3 {
+    margin: 4% 3.5% 0px 5%;
+    line-height: 97%;
+    max-height: 17.7%;
+}
+
+.card p {
+    margin: 8% 3.8% 5.8% 4.8%;
+    max-width: 91.5%;
+    max-height: 15.8%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 32px */
+
+
+    color: #000000;
+}
+
+.cd8 p {
+    margin: 1px 3.7% 5.8% 4.8%;
 }
 .section5{
     border: 1px solid black;
