@@ -198,7 +198,7 @@ body{
 }
 .section1{
     border: 1px solid black;
-    height: 158vh !important;
+    height: 158vh;
 }
 .section2{
     border: 1px solid black;
@@ -313,10 +313,15 @@ body{
 color: #FFFFFF
 }
 @media  screen and (max-width:834px) {
-    /* .section1{
+    .section1{
         border: 1px solid black;
-        height: 100vh !important;
-    } */
+        height: 100vh;
+        
+        
+    }
+    .contanier{
+        height: 3800px;
+    }
     .logo1{
         width: 64.87px;
         height: 38.23px;
@@ -468,6 +473,103 @@ color: #FFFFFF
     
     
         /* color: #FFFFFF; */
+    }
+    .section7{
+        /* border: 1px solid black; */
+        height: 225.88px;
+        /* background: #000000; */
+    }
+    .logo_mobile_white{
+        width: 66.6px;
+        height: 39.38px;
+        margin-left: 70.66px;
+        margin-top: 28.96px;
+        /* color: white; */
+    }
+    .social_media{
+        /* display: flex;
+        justify-content: start; */
+        margin-left: 70.66px;
+        margin-top: 0px;
+    }
+    .noroot4{
+        width: 19.11px;
+        height: 19.11px;
+        margin-right: 10.43px;
+    
+    }
+    .fb{
+        width: 18.53px;
+        height: 18.53px;
+        margin-right: 12.16px;
+    
+    }
+    .vk{
+        width: 20.27px;
+        height: 20.27px;
+        margin-right: 14.48px;
+    
+    }
+    .wp{
+        width: 19.69px;
+        height: 19.69px;
+    
+    }
+    .white_phone{
+        width: 15.64px;
+        height: 15.64px;
+        margin-left: 400px;
+        margin-top: 31.28px;
+        margin-right: 12.74px;
+    }
+    .span_phone{
+        width: 133.21px;
+        height: 23.17px;
+        margin-top: 34.17px;
+        /* font-family: Roboto;
+        font-style: normal;
+        font-weight: normal; */
+        font-size: 14px;
+        /* line-height: 101.38%; */
+        /* or 25px */
+    
+    
+        /* color: #FFFFFF; */
+    }
+    .white_mail{
+        width: 15.64px;
+        height: 10.43px;
+        margin-left: 542.27px;
+        margin-top: 14.48px;
+        margin-right: 12.74px;
+    }
+    .span_mail{
+        width: 155.8px;
+        height: 23.17px;
+        /* font-family: Roboto;
+        font-style: normal;
+        font-weight: normal; */
+        font-size: 14px;
+        /* line-height: 101.38%; */
+        /* or 25px */
+    
+    
+        /* color: #FFFFFF; */
+    }
+    .date{
+        width: 133.21px;
+        height: 23.17px;
+        margin-left: 70.66px;
+        margin-top:69.39px;
+        /* font-family: Roboto;
+        font-style: normal;
+        font-weight: normal; */
+        font-size: 10px;
+        /* line-height: 101.38%; */
+        /* or 18px */
+    
+    
+        /* color: #FFFFFF */
     }
 
 
