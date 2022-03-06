@@ -213,3 +213,139 @@ color: #000000;
 .section7{
     border: 1px solid black;
 }
+
+
+/*--------------------------------------------- section2 styles Hasanrza------------------------------------------------- */
+.parcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sec2h1{
+    width: 365px;
+    height: 93px;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 55px;
+    margin-left: 121px;
+    margin-bottom: 18px;
+}
+.sec2par{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    width: 662px;
+    height: 374px;
+    margin-left: 121px;
+}
+
+.cameramancontainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 127px;
+    margin-top: 30px;
+    margin-left: 164px;
+}
+
+.cameraman{
+    width: 314px;
+    height: 315px;
+}
+
+.cameramanellipsis{
+    position: absolute;
+    top: 280px;
+    right: -24px;
+    z-index: -1;
+}
+.sec2endpar{
+    margin-left: 121px;
+    margin-top: 94px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.sec2secondman{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.sec2lightman{
+    width: 232px;
+    height: 203px;
+}
+.sec2ellipsis33{
+    position: absolute;
+    width: 189px;
+    height: 32px;
+    top: 185px;
+    left: 35px;
+    z-index: -1;
+}
+
+.sec2headspars{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 132px;
+    margin-top: 70px;
+}
+
+.sec2headsparssecond{
+    margin-left: 95px;
+}
+
+.sec2headsparsthird{
+    margin-left: 93px;
+}
+
+.sec2firstheading{
+    width: 150px;
+    height: 39px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sec2firstpar{
+    width: 150px;
+    height: 39px;
+    font-family: Roboto;
+    font-size: 18px;
+}
+.sec2secondheading{
+    width: 150px;
+    height: 39px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sec2secondpar{
+    width: 150px;
+    height: 39px;
+    font-family: Roboto;
+    font-size: 18px;
+}
+.sec2thirdheading{
+    width: 150px;
+    height: 39px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 25px;
+}
+.sec2secondpar{
+    width: 150px;
+    height: 39px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+/*------------------------------- section2 end here ------------------------------------------- */
+
+
