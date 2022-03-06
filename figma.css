@@ -1032,6 +1032,83 @@ color: #FFFFFF
     font-size: 18px;
 }
 
+
+
 /*------------------------------- section2 end here ------------------------------------------- */
 
+
+
+/* ------------------------------- section 6 styles Hasanrza ----------------------------------- */ 
+.section6{
+    height: 780px !important;
+    background: #9DC9C8;
+}
+
+.sec6header1{
+    width: 908px;
+    height: 66px;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 55px;
+    margin-top: 179px;
+}
+
+.sec6par{
+    width: 170px;
+    height: 32px;
+    font-family: Roboto;
+    font-size: 25px;
+    margin-top: 54px;
+}
+
+.sec6header2{
+    width: 481px;
+    height: 181px;
+    font-family: Roboto;
+    font-size: 80px;
+}
+
+.sec6commonpars{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 686px;
+    height: 111px;
+}
+
+.sec6par1{
+    width: 294px;
+    height: 32px;
+    font-family: Roboto;
+    font-size: 25px;
+    margin-bottom: 9px;
+}
+
+.sec6par2{
+    width: 322px;
+    height: 32px;
+    font-family: Roboto;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-bottom: 9px;
+}
+
+.sec6par3{
+    width: 294px;
+    height: 70px;
+    font-family: Roboto;
+    font-size: 18px;
+
+}
+.sec6par4{
+    width: 294px;
+    height: 70px;
+    font-family: Roboto;
+    font-size: 18px;
+    margin-left: 70px;
+}
+
+.section6container{
+    margin-left: 121px;
+}
 
