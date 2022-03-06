@@ -983,6 +983,9 @@ color: #FFFFFF
 
 
 /*--------------------------------------------- section2 styles Hasanrza------------------------------------------------- */
+.section2container{
+    margin-left: 121px;
+}
 .parcontent{
     display: flex;
     flex-direction: row;
@@ -995,7 +998,7 @@ color: #FFFFFF
     font-family: Roboto Slab;
     font-weight: bold;
     font-size: 55px;
-    margin-left: 121px;
+    /* margin-left: 121px; */
     margin-bottom: 18px;
 }
 .sec2par{
@@ -1005,7 +1008,7 @@ color: #FFFFFF
     font-size: 24px;
     width: 662px;
     height: 374px;
-    margin-left: 121px;
+    /* margin-left: 121px; */
 }
 
 .cameramancontainer{
@@ -1029,7 +1032,7 @@ color: #FFFFFF
     z-index: -1;
 }
 .sec2endpar{
-    margin-left: 121px;
+    /* margin-left: 121px; */
     margin-top: 94px;
     display: flex;
     flex-direction: row;
@@ -1105,7 +1108,7 @@ color: #FFFFFF
     font-weight: bold;
     font-size: 25px;
 }
-.sec2secondpar{
+.sec2thirdpar{
     width: 150px;
     height: 39px;
     font-family: Roboto;
@@ -1113,9 +1116,151 @@ color: #FFFFFF
     font-size: 18px;
 }
 
+/*----------------------------section 2 tablet layout ---------------------------------------------------- */
+@media(max-width: 834px){
+.section2container{
+    margin-left: 70.08px;
+}
+.sec2h1{
+    width: 211.4px;
+    height: 53.86px;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 10.42px;
+}
+
+.sec2par{
+    height: 216.61px;
+}
+
+.sec2par p{
+    width: 383.41px;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.cameramancontainer{
+    position: relative;
+    width: 181.86px;
+    height: 182.44px;
+    margin-left: 94.98px;
+    margin-top: 0px;
+}
+
+.cameraman{
+    width: 181.86px;
+    height: 182.44px;
+}
+.cameramanellipsis{
+    width: 211.98px;
+    height: 34.17px;
+    position: absolute;
+    top: 165px;
+    left: -15.06px;
+}
+
+.sec2endpar{
+    width: 580.33px;
+    height: 126.84px;
+    margin-top: 54.44px;
+}
+
+.sec2secondman{
+    width: 134.37px;
+    height: 117.57px;
+    position: relative;
+}
+
+.sec2lightman{
+    width: 134.37px;
+    height: 117.57px;
+}
+
+.sec2ellipsis33{
+    width: 109.46px;
+    height: 18.53px;
+    position: absolute;
+    left: 20px;
+    top: 110px;
+}
+
+.sec2headspars{
+    width: 369.51px;
+    height: 45.95;
+    margin-left: 76.45px;
+    margin-top: 42px;
+}
+
+.sec2firstheading{
+    width: 86.88px;
+    height: 22.59px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sec2firstpar{
+    width: 86.88px;
+    height: 22.59px;
+    font-family: Roboto;
+    font-size: 11px;
+}
+
+.sec2secondheading{
+    width: 86.88px;
+    height: 22.59px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sec2secondpar{
+    width: 108px;
+    height: 23px;
+    font-family: Roboto;
+    font-size: 11px;
+}
+
+.sec2thirdheading{
+    width: 86.88px;
+    height: 22.59px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sec2thirdpar{
+    width: 86.88px;
+    height: 22.59px;
+    font-family: Roboto;
+    font-size: 11px;
+}
+
+.sec2headsparssecond{
+    margin-left: 55.02px;
+}
+
+.sec2headsparsthird{
+    margin-left: 32.53px;
+}
+
+.section2{
+    height: 90vh !important;
+}
 
 
-/*------------------------------- section2 end here ------------------------------------------- */
+
+
+}
+
+
+
+
+
+
+
+/* ------------------------------- section2 end here ------------------------------------------- */
 
 
 
@@ -1193,3 +1338,4 @@ color: #FFFFFF
     margin-left: 121px;
 }
 
+/*  --------------- section 6 end here --------------------------------------------------------  */
