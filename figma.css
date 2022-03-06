@@ -220,6 +220,9 @@ body{
     height: 390px;
     background: #000000;
 }
+.kk{
+    display: flex;
+}
 .logo_mobile_white{
     width: 115px;
     height: 68px;
@@ -230,7 +233,7 @@ body{
 .white_phone{
     width: 27px;
     height: 27px;
-    margin-left: 700px;
+    margin-left: 600px;
     margin-top: 54px;
     margin-right: 22px;
 }
@@ -251,7 +254,7 @@ body{
 .white_mail{
     width: 27px;
     height: 18px;
-    margin-left: 937px;
+    margin-left: 600px;
     margin-top: 25px;
     margin-right: 22px;
 }
@@ -272,7 +275,7 @@ body{
     display: flex;
     justify-content: start;
     margin-left: 122px;
-    margin-top: -18px;
+    margin-top: 30px;
 }
 .noroot4{
     width: 33px;
@@ -474,11 +477,30 @@ color: #FFFFFF
     
         /* color: #FFFFFF; */
     }
+    .par3{
+        /* display: inline-block; */
+        margin-left: 108.22px;
+        margin-top: 8.6px;
+        width: 162.46px;
+        height: 26.43px;
+        /* font-family: Roboto;
+        font-style: normal;
+        font-weight: normal; */
+        font-size: 12px;
+        /* line-height: 130%; */
+        /* or 26px */
+    
+        /* text-align: right;
+    
+    
+        color: #FFFFFF; */
+    }
     .section7{
         /* border: 1px solid black; */
         height: 225.88px;
         /* background: #000000; */
     }
+    
     .logo_mobile_white{
         width: 66.6px;
         height: 39.38px;
@@ -490,7 +512,7 @@ color: #FFFFFF
         /* display: flex;
         justify-content: start; */
         margin-left: 70.66px;
-        margin-top: 0px;
+        margin-top: 17.38px;
     }
     .noroot4{
         width: 19.11px;
@@ -518,7 +540,7 @@ color: #FFFFFF
     .white_phone{
         width: 15.64px;
         height: 15.64px;
-        margin-left: 400px;
+        margin-left: 428px;
         margin-top: 31.28px;
         margin-right: 12.74px;
     }
@@ -539,7 +561,7 @@ color: #FFFFFF
     .white_mail{
         width: 15.64px;
         height: 10.43px;
-        margin-left: 542.27px;
+        margin-left: 428px;
         margin-top: 14.48px;
         margin-right: 12.74px;
     }
@@ -561,6 +583,307 @@ color: #FFFFFF
         height: 23.17px;
         margin-left: 70.66px;
         margin-top:69.39px;
+        /* font-family: Roboto;
+        font-style: normal;
+        font-weight: normal; */
+        font-size: 10px;
+        /* line-height: 101.38%; */
+        /* or 18px */
+    
+    
+        /* color: #FFFFFF */
+    }
+
+
+    
+}
+@media  screen and (max-width:375px) {
+    .section1{
+        border: 1px solid black;
+        height: 82vh;
+        
+        
+    }
+    .contanier{
+        height: 4524px;
+    }
+    .logo1{
+        width: 52.19px;
+        height: 30.75px;
+        margin-left: 35px;
+        margin-top: 36px;
+    }
+    .nav{
+        /* display: flex;
+        justify-content: start; */
+        margin-left: 35px;
+        margin-top: 45.2px;
+    }
+    .globe{
+        width: 10.25px;
+        height: 9.79px;
+        margin-right: 3.73px;
+    }
+    .clock{
+        width: 10.25px;
+        height: 10.25px;
+        margin-right: 4.66px;
+    }
+    .calendar{
+        width: 9.32px;
+        height: 10.25px;
+        margin-right: 6.06px;
+    }
+    .span1{
+        /* margin-right: 25px; */
+        /* display: inline-block; */
+        width: 60.58px;
+        height: 14.91px;
+        margin-right: 11.65px;
+        /* font-style: normal;
+        font-weight: normal; */
+        font-size: 10px;
+        /* line-height: 115%; */
+        /* or 23px */
+    
+    
+        /* color: #000000; */
+    
+    
+    }
+    .span2{
+        /* display: inline-block; */
+        width: 60.58px;
+        height: 14.91px;
+        /* font-family: Roboto; */
+        /* font-style: normal;
+        font-weight: normal; */
+        font-size: 10px;
+        /* line-height: 115%; */
+        /* or 23px */
+    
+    
+        /* color: #000000; */
+    }
+    .span3{
+        /* display: inline-block; */
+        width: 60.58px;
+        height: 14.91px;
+        /* font-family: Roboto; */
+        /* font-style: normal;
+        font-weight: normal; */
+        font-size: 10px;
+        /* line-height: 115%; */
+        /* or 23px */
+    
+    
+        /* color: #000000; */
+    
+    }
+    .first_firstsection{
+        display: block;
+        /* height: 80vh; */
+    }
+    .h1_1{
+        width: 292.63px;
+        height: 88.53px;
+        margin-left: 35.47px;
+        margin-top: 8.06px;
+        /* font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold; */
+        font-size: 37px;
+        line-height: 101.38%;
+        /* or 81px */
+    
+    
+        /* color: #000000; */
+    
+    }
+    .par1{
+        width: 212.4px;
+        height: 28.96px;
+        margin-left: 35.74px;
+        /* font-family: Roboto;
+        font-style: normal;
+        font-weight: normal; */
+        font-size: 10px;
+        /* line-height: 150%; */
+        /* or 30px */
+    
+    
+        /* color: #000000; */
+    }
+    .image_man{
+        /* position: relative; */
+        margin-left: 201px;
+        margin-top: 28px;
+    }
+    .man{
+        /* margin-top: 0; */
+        
+        width: 141.68px;
+        height: 175.1px;
+        /* z-index: 1; */
+    
+    
+    }
+    .ellipse_man{
+        /* position: absolute; */
+        left: 16px;
+        bottom: -5px;
+        /* z-index: -1; */
+    
+        width: 127.68px;
+        height: 19.1px;
+    
+    }
+    .par{
+        width: 225.36px;
+        height: 93.19px;
+        margin-top: 38.64px;
+        /* background: #1E4681; */
+        border-radius: 2.33px;
+        margin-left: 37.98px;
+    
+    
+    }
+    .par2{
+        /* display: inline-block; */
+        margin-left: 12.13px;
+        margin-top: 8.97px;
+        width: 200.64px;
+        height: 52.65px;
+        /* font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: normal; */
+        font-size: 11px;
+        /* line-height: 130%; */
+        /* or 32px */
+    
+    
+        /* color: #FFFFFF; */
+    }
+    .par3{
+        /* display: inline-block; */
+        margin-left: 87.07px;
+        margin-top: 6.92px;
+        width: 130.7px;
+        height: 21.27px;
+        /* font-family: Roboto;
+        font-style: normal;
+        font-weight: normal; */
+        font-size: 10px;
+        /* line-height: 130%; */
+        /* or 26px */
+    
+        /* text-align: right;
+    
+    
+        color: #FFFFFF; */
+    }
+    .section7{
+        /* border: 1px solid black; */
+        height: 251px;
+        /* background: #000000; */
+    }
+    .logo_mobile_white{
+    
+        width: 53.59px;
+        height: 31.69px;
+        margin-left: 37.85px;
+        margin-top: 23.3px;
+        /* color: white; */
+    }
+    .social_media{
+        /* display: flex;
+        justify-content: start; */
+        margin-left: 37.85px;
+        margin-top: 13.98px;
+    }
+    .noroot4{
+        width: 15.38px;
+        height: 15.38px;
+        margin-right: 8.39px;
+    
+    }
+    .fb{
+        width: 14.91px;
+        height: 14.91px;
+        margin-right: 9.78px;
+    
+    }
+    .vk{
+        width: 16.31px;
+        height: 16.31px;
+        margin-right: 11.65px;
+    
+    }
+    .wp{
+        width: 15.84px;
+        height: 15.84px;
+    
+    }
+    .kk{
+        display: block;
+    }
+    .kk1{
+        width: 148.18px;
+        height: 41.01px;
+        margin-top: 47.66;
+        margin-left:38px ;
+    }
+    .white_phone{
+        width: 12.58px;
+        height: 12.58px;
+        /* left: 38px;
+        top: 132px; */
+        margin-right: 10.25px;
+        margin-left: 0px;
+    }
+    .span_phone{
+        width: 107.17px;
+        height: 18.64px;
+        /* top: 134.33px;
+        left: 30.5px; */
+        /* font-family: Roboto;
+        font-style: normal;
+        font-weight: normal; */
+        font-size: 12px;
+        /* line-height: 101.38%; */
+        /* or 25px */
+    
+    
+        /* color: #FFFFFF; */
+    }
+    .white_mail{
+        width: 12.58px;
+        height: 8.39px;
+        /* margin-left: 38px; */
+        /* top: 140px; */
+        margin-right: 10.25px;
+        margin-top: 1.4px;
+        margin-left: 0px;
+    }
+    .span_mail{
+        
+        width: 125.35px;
+        height: 18.64px;
+        /* font-family: Roboto;
+        font-style: normal;
+        font-weight: normal; */
+        font-size: 12px;
+        /* line-height: 101.38%; */
+        /* or 25px */
+    
+    
+        /* color: #FFFFFF; */
+    }
+    .date{
+        width: 133.21px;
+        height: 23.17px;
+        margin-left: 37.85px;
+        margin-top:48.99px;
         /* font-family: Roboto;
         font-style: normal;
         font-weight: normal; */
