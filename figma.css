@@ -244,10 +244,71 @@ body{
 .cd8 p {
     margin: 1px 3.7% 5.8% 4.8%;
 }
+<<<<<<< HEAD
 /*---------------------------------------Section4 end here---------------------------------------*/
+=======
+
+/* Namiq branch section 5 */
+
+>>>>>>> 45c26bdafec4d3cb8ad19e2d2f9c47bd12b50aae
 .section5{
     border: 1px solid black;
+    background: #EFEFEF;
+    height: 130vh;
 }
+
+.wrapper {
+    width: 83%;
+    height: 100vh;
+    margin: 50px auto;
+}
+
+.section5 h1 {
+    max-width: 987px;
+    height: 90px;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    color: #000000;
+    margin-bottom: 35px;
+    padding: o 100px 35px 0;
+}
+
+.container5 {
+    max-width: 791px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 40px 45px;
+}
+
+.container5 .above {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.container5 .low {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.container5 .low h3 {
+    max-width: 353px;
+    height: 50px;
+    text-align: left;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 101.38%;
+    color: #000000;
+    position: relative;
+}
+
 .section6{
     border: 1px solid black;
 }
