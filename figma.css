@@ -965,7 +965,7 @@ body{
 }
 
 .section2{
-    height: 90vh !important;
+    height: 90vh;
 }
 
 
@@ -1181,7 +1181,7 @@ body{
     }
     
     .section2{
-        height: 90vh !important;
+        height: 90vh;
     }
     /* Section2 end here */
     /* Section6 designed by hasanrza start here (For Tablet) */
