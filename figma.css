@@ -160,7 +160,7 @@ body{
 }
 .section1{
     border: 1px solid black;
-    height: 158vh;
+    height: 165vh;
 }
 /*-------------------------------------Section1 end here-----------------------------------------*/
 .section2{
@@ -965,7 +965,7 @@ body{
 }
 
 .section2{
-    height: 90vh;
+    height: 90vh !important;
 }
 
 
@@ -1181,7 +1181,7 @@ body{
     }
     
     .section2{
-        height: 90vh;
+        height: 90vh !important;
     }
     /* Section2 end here */
     /* Section6 designed by hasanrza start here (For Tablet) */
