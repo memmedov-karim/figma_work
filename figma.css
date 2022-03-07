@@ -198,6 +198,144 @@ color: #000000;
 .section2{
     border: 1px solid black;
 }
+/*  ---------------- section 2 mobile Hasanrza  ----------------------------------------------------------- */
+
+@media (max-width:375px){
+
+    .section2container{
+        margin-left: 35px;
+    }
+    
+    
+    .sec2h1{
+        width: 170.08px;
+        height: 43.34px;
+        font-family: Roboto Slab;
+        font-weight: bold;
+        font-size: 26px;
+    }
+    
+    .parcontent{
+        width: 308.47px;
+        height: 390.57px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sec2par{
+        height: 174.27px;
+    }
+    
+    .sec2par p{
+        font-family: Roboto;
+        font-size: 12px;
+        width: 308.47px;
+    }
+    
+    .cameramancontainer{
+        width: 170.55px;
+        height: 160.29px;
+        margin-left: 65px;
+    }
+    
+    .phonecameraman{
+        display: block !important;
+        width: 170.55px;
+        height: 160.29px;
+    }
+    
+    .cameraman{
+        display: none;
+    }
+    
+    .cameramanellipsis{
+        display: none;
+    }
+    
+    .sec2secondman{
+        display: none;
+    }
+    
+    .sec2lightman{
+        display: none;
+    }
+    
+    .sec2ellipsis33{
+        display: none;
+    }
+    
+    .sec2headspars{
+        margin-left: 0px;
+        margin-right: 133.76px;
+        margin-top: 0px;
+        width: 206.22px;
+        height: 108px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .sec2headsparsfirst{
+        width: 86px;
+        height: 37px;
+    }
+    
+    .sec2headsparssecond{
+        width: 87.06px;
+        height: 36.97px;
+        margin-left: 33.16px;
+    }
+    
+    .sec2headsparsthird{
+        width: 76px;
+        height: 37px;
+        margin-left: 0px;
+        margin-top: 34px;
+    }
+    
+    .sec2firstheading{
+        width: 69.9px;
+        height: 18.17px;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .sec2firstpar{
+        width: 86px;
+        height: 18px;
+        font-family: Roboto;
+        font-size: 10px;
+    }
+    .sec2secondheading{
+        width: 69.9px;
+        height: 18.17px;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+    .sec2secondpar{
+        width: 86.89px;
+        height: 18.5px;
+        font-family: Roboto;
+        font-size: 10px;
+    }
+    .sec2thirdheading{
+        width: 69.9px;
+        height: 18.17px;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .sec2thirdpar{
+        width: 76px;
+        height: 18px;
+        font-family: Roboto;
+        font-size: 10px;
+    }
+}
+    
+
 .section3{
     border: 1px solid black;
 }
@@ -494,168 +632,6 @@ color: #000000;
 
 
 }
-
-
-
-/*  ---------------- section 2 mobile Hasanrza  ----------------------------------------------------------- */
-
-@media (max-width:375px){
-
-.section2container{
-    margin-left: 35px;
-}
-
-
-.sec2h1{
-    width: 170.08px;
-    height: 43.34px;
-    font-family: Roboto Slab;
-    font-weight: bold;
-    font-size: 26px;
-}
-
-.parcontent{
-    width: 308.47px;
-    height: 390.57px;
-    display: flex;
-    flex-direction: column;
-}
-
-.sec2par{
-    height: 174.27px;
-}
-
-.sec2par p{
-    font-family: Roboto;
-    font-size: 12px;
-    width: 308.47px;
-}
-
-.cameramancontainer{
-    width: 170.55px;
-    height: 160.29px;
-    margin-left: 65px;
-}
-
-.phonecameraman{
-    display: block !important;
-    width: 170.55px;
-    height: 160.29px;
-}
-
-.cameraman{
-    display: none;
-}
-
-.cameramanellipsis{
-    display: none;
-}
-
-.sec2secondman{
-    display: none;
-}
-
-.sec2lightman{
-    display: none;
-}
-
-.sec2ellipsis33{
-    display: none;
-}
-
-.sec2headspars{
-    margin-left: 0px;
-    margin-right: 133.76px;
-    margin-top: 0px;
-    width: 206.22px;
-    height: 108px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.sec2headsparsfirst{
-    width: 86px;
-    height: 37px;
-}
-
-.sec2headsparssecond{
-    width: 87.06px;
-    height: 36.97px;
-    margin-left: 33.16px;
-}
-
-.sec2headsparsthird{
-    width: 76px;
-    height: 37px;
-    margin-left: 0px;
-    margin-top: 34px;
-}
-
-.sec2firstheading{
-    width: 69.9px;
-    height: 18.17px;
-    font-family: Roboto;
-    font-weight: bold;
-    font-size: 12px;
-}
-.sec2firstpar{
-    width: 86px;
-    height: 18px;
-    font-family: Roboto;
-    font-size: 10px;
-}
-.sec2secondheading{
-    width: 69.9px;
-    height: 18.17px;
-    font-family: Roboto;
-    font-weight: bold;
-    font-size: 12px;
-}
-
-.sec2secondpar{
-    width: 86.89px;
-    height: 18.5px;
-    font-family: Roboto;
-    font-size: 10px;
-}
-.sec2thirdheading{
-    width: 69.9px;
-    height: 18.17px;
-    font-family: Roboto;
-    font-weight: bold;
-    font-size: 12px;
-}
-.sec2thirdpar{
-    width: 76px;
-    height: 18px;
-    font-family: Roboto;
-    font-size: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
 
 /* ------------------------------- section2 end here ------------------------------------------- */
 
