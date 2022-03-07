@@ -830,10 +830,6 @@ body{
     font-weight: normal;
     font-size: 18px;
 }
-<<<<<<< HEAD
-/*--------------------------------Section2 end here--------------------------------------------*/
-/* ------------------------------- section 6 styles Hasanrza -----------------------------------*/ 
-=======
 
 /*----------------------------section 2 tablet layout ---------------------------------------------------- */
 @media(max-width: 834px){
@@ -1144,7 +1140,7 @@ body{
 
 
 /* ------------------------------- section 6 styles Hasanrza ----------------------------------- */ 
->>>>>>> a1944594318525efab253358cf99ba552ca98ec5
+
 .section6{
     height: 780px !important;
     background: #9DC9C8;
@@ -1424,9 +1420,8 @@ body{
     /* Section6 end here */ 
     
 }
-<<<<<<< HEAD
 /*-----------------Responsive designed by Hasan for Tablet end here------------------------------*/
-=======
+
 .section6container{
     margin-left: 70.66px;
     margin-top: 103.67px;
@@ -1492,7 +1487,5 @@ body{
     font-size: 10px;
     margin-left: 40.54px;
 }
-
-}
 /*  --------------- section 6 end here --------------------------------------------------------  */
->>>>>>> a1944594318525efab253358cf99ba552ca98ec5
+
