@@ -1276,7 +1276,6 @@ color: #FFFFFF
     font-family: Roboto Slab;
     font-weight: bold;
     font-size: 55px;
-    margin-top: 179px;
 }
 
 .sec6par{
@@ -1336,6 +1335,95 @@ color: #FFFFFF
 
 .section6container{
     margin-left: 121px;
+    margin-top: 179px;
 }
 
+
+@media(max-width: 834px){
+.section6{
+    height: 90vh !important;
+}
+.section6container{
+    margin-left: 70.66px;
+    margin-top: 103.67px;
+}
+
+.sec6header1{
+    width: 525.88px;
+    height: 38.23px;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 31.27px;
+}
+
+.sec6par{
+    width: 98.46px;
+    height: 18.53px;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.sec6header2{
+    width: 278.58px;
+    height: 104.83px;
+    font-family: Roboto;
+    font-size: 46px;
+}
+
+.sec6commonpars{
+    width: 397.31px;
+    height: 64.29px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sec6par1{
+    width: 170.28px;
+    height: 18.53px;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.sec6par2{
+    width: 186.49px;
+    height: 18.53px;
+    font-family: Roboto;
+    font-size: 14px;
+    margin-left: 40.54px;
+}
+
+.sec6par3{
+    width: 170.28px;
+    height: 40.54px;
+    font-family: Roboto;
+    font-size: 10px;
+    margin-top: 5.21px;
+}
+
+.sec6par4{
+    width: 170.28px;
+    height: 40.54px;
+    font-family: Roboto;
+    font-size: 10px;
+    margin-left: 40.54px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 /*  --------------- section 6 end here --------------------------------------------------------  */
