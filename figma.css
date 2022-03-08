@@ -165,32 +165,30 @@ color: #000000;
     height: 198vh;
 }
 
-.wrapper {
-    margin: 0 5.9% 0 5.8%;
+.section4 .wrapper {
+    margin: 0 85px 0 84px;
 }
 
 .container4 {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 95px;
 }
 
 .section4 h1 {
-    margin: 0 28.75% 6.6% 8.4%;
-    width: 62.8%;
-    height: 6.5%;
+    justify-content: center;
+    max-width: 905px;
+    text-align: left;
+    padding-left: 37px;
     font-family: Roboto Slab;
-    font-style: normal;
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
-    /* or 56px */
-
-
     color: #000000;
 }
 .container4 .card{
-    margin: 2.6%;
-    width: 27.7%;
+    margin: 0 37px 41px 0;
+    max-width: 350px;
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
@@ -198,17 +196,12 @@ color: #000000;
 
 .container4 .card h3 {
     display: inline-block;
-    margin: 2.8% 3.5% 0 5%;
-    width: 91.5%;
-    height: 9.8%;
+    margin: 11px 14px 0 20px;
+    max-width: 365px;
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
     font-size: 25px;
     line-height: 130%;
-    /* identical to box height, or 39px */
-
-
     color: #000000;
 }
 
@@ -217,29 +210,23 @@ color: #000000;
 }
 
 .cd8 h3 {
-    margin: 4% 3.5% 0px 5%;
+    margin: 16px 14px 0 20px;
     line-height: 97%;
-    max-height: 17.7%;
 }
 
 .card p {
-    margin: 8% 3.8% 5.8% 4.8%;
-    max-width: 91.5%;
-    max-height: 15.8%;
+    margin: 32px 15px 23px 19px;
+    max-width: 365px;
     font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 130%;
-    /* or 32px */
-
-
     color: #000000;
 }
 
 .cd8 p {
-    margin: 1px 3.7% 5.8% 4.8%;
-}
+    margin: 1px 15px 23px 19px;
+}  
 
 /* Namiq branch section 5 */
 
@@ -249,9 +236,8 @@ color: #000000;
     height: 130vh;
 }
 
-.wrapper {
+.section5 .wrapper {
     width: 83%;
-    height: 100vh;
     margin: 50px auto;
 }
 
@@ -307,3 +293,225 @@ color: #000000;
 .section7{
     border: 1px solid black;
 }
+
+/*--------------------------------------------------  Namiq wrapper starting  ---------------------------------------*/
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+    
+}
+
+@media (min-width: 834px) and (max-width: 1280px) {
+    .section4{
+        height: 800px;
+    }
+    
+    .section4 .wrapper {
+        margin: 0 49.23px 0 48.65px;
+    }
+    .section4 h1 {
+        max-width: 525px;
+        padding-left: 37px;
+        font-size: 32px;
+    }
+    .container4 .card{
+        margin: 0 23.7px 21.4px 0;
+        max-width: 231px;
+        background: #FFFFFF;
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+    }
+    
+    .container4 .card h3 {
+        display: inline-block;
+        margin: 6.37px 8.11px 0 11.58px;
+        max-width: 211.4px;
+        font-size: 17px;
+    }
+    
+    .card img {
+        width: 100%;
+    }
+    
+    .cd8 h3 {
+        margin: 9.27px 8.11px 0 11.58px;
+    }
+    
+    .card p {
+        margin: 18.53px 8.7px 13.32px 11px;
+        max-width: 211.4px;
+        font-size: 14px;
+    }
+    
+    .cd8 p {
+        margin: 1px 8.7px 13.32px 11px;
+    }  
+    
+    .section5{
+        height: 480px;
+    }
+    
+    .section5 .wrapper {
+        width: 83%;
+        margin: 50px auto;
+    }
+    
+    .section5 h1 {
+        max-width: 571.64px;
+        height: 53.86px;
+        font-size: 32px;
+        margin-bottom: 35px;
+        padding: o 100px 35px 0;
+    }
+    
+    .container5 {
+        margin-left: 5px;
+        max-width: 458.12px;
+        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+        padding: 23.17px 26.64px 16.8px 26px;
+    }
+    
+    .container5 .above {
+        font-size: 12px;
+    }
+    
+    .container5 .low {
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+    }
+    
+    .container5 .low h3 {
+        max-width: 204.45px;
+        height: 34.17px;
+        text-align: left;
+        font-size: 17px;
+        position: relative;
+    }
+
+    .container5 .low img {
+        width: 110px;
+        height: 98px;
+        margin-left: -15px;
+    }
+
+    .container5 .low .div1 .div2 .img2 {
+        width: 18.5px;
+        height: 18px;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 834px) {
+    .section4{
+        border: 1px solid black;
+        width: 100%;
+        height: 1675px;
+    }
+
+    .section4 .wrapper {
+        margin: 0 94px 0 95px;
+    }
+
+    .container4 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 35px;
+    }
+
+    .section4 h1 {
+        justify-content: unset;
+        max-width: 421.7px;
+        text-align: unset;
+        padding-left: unset;
+        font-size: 26px;
+        margin-left: -65px;
+    }
+    .container4 .card{
+        margin: 0 37px 41px 0;
+        max-width: 186px;
+        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+    }
+
+    .container4 .card h3 {
+        display: inline-block;
+        margin: 5.1px 6.5px 0 9.3px;
+        max-width: 170px;
+        font-size: 14px;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .cd8 h3 {
+        margin: 7.5px 6.5px 0 9.3px;
+    }
+
+    .card p {
+        margin: 15px 7px 10.7px 8.8px;
+        max-width: 170px;
+        font-size: 12px;
+    }
+
+    .cd8 p {
+        margin: 1px 7px 10.7px 8.8px;
+    }  
+
+    /* Namiq branch section 5 */
+
+    .section5{
+        height: 430px;
+    }
+
+    .section5 .wrapper {
+        width: 83%;
+        margin: 42px auto;
+    }
+
+    .section5 h1 {
+        max-width: 257px;
+        height: 69px;
+        font-size: 26px;
+        margin-bottom: 35px;
+        padding: unset;
+    }
+
+    .container5 {
+        max-width: 308px;
+        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+        padding: 18.5px 21px 13px 21px;
+    }
+
+    .container5 .above {
+        font-size: 10px;
+    }
+
+    .container5 .low {
+        display: flex;
+        margin-top: 5px;
+        align-items: center;
+    }
+
+    .container5 .low h3 {
+        max-width: 164.5px;
+        height: 32.7px;
+        text-align: left;
+        font-size: 14px;
+        position: relative;
+    }
+
+    .container5 .low img {
+        width: 80px;
+        height: 84px;
+    }
+
+    .container5 .low .div1 .div2 .img2 {
+        width: 15px;
+        height: 17px;
+    }
+}
+
+/*--------------------------------------------------  Namiq wrapper ending  ---------------------------------------*/
