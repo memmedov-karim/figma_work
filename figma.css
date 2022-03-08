@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100&family=Roboto+Serif:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100&family=Roboto+Serif:wght@500&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body{
     font-family: Roboto;
 }
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -14,9 +14,9 @@ body{
     width: 100%;
 }
 .sec{
-    
     height: 150vh;
 }
+/*---------------------Section1 designed by Kerim start here (For Laptop)------------------------*/
 .nav{
     display: flex;
     justify-content: start;
@@ -25,7 +25,6 @@ body{
 }
 .first_firstsection{
     display: flex;
-    /* height: 80vh; */
 }
 .h1_1{
     width: 628px;
@@ -33,38 +32,64 @@ body{
     margin-left: 122px;
     margin-top: 29px;
     font-family: Roboto Slab;
-font-style: normal;
-font-weight: bold;
-font-size: 80px;
-line-height: 101.38%;
-/* or 81px */
-
-
-color: #000000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 101.38%;
+    color: #000000;
 
 }
 .par1{
     width: 414px;
-height: 62px;
-margin-left: 122px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 150%;
-/* or 30px */
-
-
-color: #000000;
+    height: 62px;
+    margin-left: 122px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+}
+.par{
+    width: 483.63px;
+    margin-top: 87.62px;
+    height: 200px;
+    background: #1E4681;
+    border-radius: 5px;
+    margin-left: 409.39px;
+}
+.par2{
+    display: inline-block;
+    margin-left: 26.02px;
+    margin-top: 19.26px;
+    width: 430.59px;
+    height: 113px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.par3{
+    display: inline-block;
+    margin-left: 184.61px;
+    margin-top: 22.2px;
+    width: 280.5px;
+    height: 45.64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: right;
+    color: #FFFFFF;
 }
 .man{
     margin-top: 0;
-    
     width: 304px;
-height: 356px;
-z-index: 1;
-
-
+    height: 356px;
+    z-index: 1;
 }
 .image_man{
     position: relative;
@@ -75,56 +100,42 @@ z-index: 1;
     left: 25px;
     bottom: -15px;
     z-index: -1;
-
     width: 274px;
-height: 41px;
-
+    height: 41px;
 }
 .span1{
-    /* margin-right: 25px; */
     display: inline-block;
     width: 130px;
     height: 32px;
     margin-right: 25px;
+    font-family: Roboto;
     font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 115%;
-/* or 23px */
-
-
-color: #000000;
-
-
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    color: #000000;
 }
 .span2{
     display: inline-block;
     width: 130px;
     height: 32px;
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 115%;
-/* or 23px */
-
-
-color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    color: #000000;
 }
 .span3{
     display: inline-block;
     width: 130px;
     height: 32px;
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 115%;
-/* or 23px */
-
-
-color: #000000;
-
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    color: #000000;
 }
 .globe{
     width: 22px;
@@ -149,7 +160,9 @@ color: #000000;
 }
 .section1{
     border: 1px solid black;
+    height: 165vh;
 }
+/*-------------------------------------Section1 end here-----------------------------------------*/
 .section2{
     border: 1px solid black;
 }
@@ -157,7 +170,7 @@ color: #000000;
     border: 1px solid black;
 }
 
-/* Namiq branch section 4 yazdimki qarismasin */
+/*---------------------Section4 designed by Namiq start here ( For Laptop )----------------------*/
 
 .section4{
     border: 1px solid black;
@@ -226,13 +239,14 @@ color: #000000;
 
 .cd8 p {
     margin: 1px 15px 23px 19px;
-}  
+}
+/*---------------------------------------Section4 end here---------------------------------------*/
+
 
 /* Namiq branch section 5 */
-
-.section5{
+.section5 {
     border: 1px solid black;
-    background: #EFEFEF;
+    background-color: EFEFEF;
     height: 130vh;
 }
 
@@ -290,6 +304,7 @@ color: #000000;
 .section6{
     border: 1px solid black;
 }
+/*--------------------Section7 designed by Kerim for laptop ( start here )-----------------------*/
 .section7{
     border: 1px solid black;
 }
