@@ -240,11 +240,13 @@ body{
 .cd8 p {
     margin: 1px 15px 23px 19px;
 }
+
+
 /*---------------------------------------Section4 end here---------------------------------------*/
 
 
 /* Namiq branch section 5 */
-.section5 {
+.section5{
     border: 1px solid black;
     background-color: EFEFEF;
     height: 130vh;
