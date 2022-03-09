@@ -10,13 +10,14 @@ body{
     padding: 0;
 }
 .contanier{
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
 }
-.sec{
+/* .sec{
     
     height: 150vh;
-}
+} 
+*/
 .nav{
     display: flex;
     justify-content: start;
@@ -193,7 +194,7 @@ color: #000000;
 }
 .section1{
     border: 1px solid black;
-    height: 158vh !important;
+    /* height: 158vh !important; */
 }
 .section2{
     border: 1px solid black;
@@ -216,9 +217,10 @@ color: #000000;
 
 
 /*--------------------------------------------- section2 styles Hasanrza------------------------------------------------- */
-.section2{
+/* .section2{
     height: 120vh;
-}
+} 
+*/
 
 .section2container{
     margin-left: 121px;
@@ -490,11 +492,11 @@ color: #000000;
     margin-left: 32.53px;
 }
 
-.section2{
+/* .section2{
     height: 90vh !important;
 }
 
-
+ */
 
 
 }
@@ -503,11 +505,11 @@ color: #000000;
 
 /*  ---------------- section 2 mobile Hasanrza  ----------------------------------------------------------- */
 
-@media (max-width:375px){
-
+@media screen and (max-width:375px){
+/* 
 .section2{
     height: 120vh !important;
-}
+} */
 
 .section2container{
     margin-left: 35px;
@@ -745,9 +747,9 @@ color: #000000;
 
 
 @media(max-width: 834px){
-.section6{
+/* .section6{
     height: 90vh !important;
-}
+} */
 .section6container{
     margin-left: 70.66px;
     margin-top: 103.67px;
@@ -821,7 +823,7 @@ color: #000000;
 @media(max-width:375px){
 
     .section6{
-        height: 70vh !important;
+        height: 363px !important;
     }
 
     .section6container{
