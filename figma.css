@@ -10,11 +10,11 @@ body{
     padding: 0;
 }
 .contanier{
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
 }
 .sec{
-    height: 150vh;
+    /* height: 150vh; */
 }
 /*---------------------Section1 designed by Kerim start here (For Laptop)------------------------*/
 .nav{
@@ -160,7 +160,7 @@ body{
 }
 .section1{
     border: 1px solid black;
-    height: 165vh;
+    /* height: 165vh; */
 }
 /*-------------------------------------Section1 end here-----------------------------------------*/
 .section2{
@@ -172,7 +172,7 @@ body{
 
 /*---------------------Section4 designed by Namiq start here ( For Laptop )----------------------*/
 
-.section4{
+/* .section4{
     border: 1px solid black;
     width: 100%;
     height: 205vh;
@@ -243,7 +243,76 @@ body{
 
 .cd8 p {
     margin: 1px 3.7% 5.8% 4.8%;
+} */
+
+.section4{
+    border: 1px solid black;
+    width: 100%;
+    /* height: 198vh; */
 }
+
+.section4 .wrapper {
+    margin: 0 85px 0 84px;
+}
+
+.container4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 95px;
+}
+
+.section4 h1 {
+    justify-content: center;
+    max-width: 905px;
+    text-align: left;
+    padding-left: 37px;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    color: #000000;
+}
+.container4 .card{
+    margin: 0 37px 41px 0;
+    max-width: 350px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.container4 .card h3 {
+    display: inline-block;
+    margin: 11px 14px 0 20px;
+    max-width: 365px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.card img {
+    width: 100%;
+}
+
+.cd8 h3 {
+    margin: 16px 14px 0 20px;
+    line-height: 97%;
+}
+
+.card p {
+    margin: 32px 15px 23px 19px;
+    max-width: 365px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.cd8 p {
+    margin: 1px 15px 23px 19px;
+} 
 
 /*---------------------------------------Section4 end here---------------------------------------*/
 
@@ -252,12 +321,12 @@ body{
 .section5{
     border: 1px solid black;
     background: #EFEFEF;
-    height: 130vh;
+    /* height: 130vh; */
 }
 
 .wrapper {
     width: 83%;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 50px auto;
 }
 
@@ -400,11 +469,11 @@ body{
 }
 /*----------------------------------Section7 end here--------------------------------------------*/
 /*---------------------------------Responsive design by Kerim for Tablet-------------------------*/
-@media  screen and (max-width:834px) {
+@media screen and (max-width:834px) {
     /* Section1 designed by Kerim start here (For Tablet) */
     .section1{
         border: 1px solid black;
-        height: 100vh;
+        /* height: 100vh; */
     }
     .contanier{
         height: 3800px;
@@ -575,11 +644,14 @@ body{
 }
 /*-------------------------------Responsive designed by Kerim For Tablet----------------------- */
 /*------------------Responsive designewd by Kerim for Mobile Phone----------------------------- */
-@media  screen and (max-width:375px) {
+@media screen and  (max-width:375px) {
     /* Section1 designed by Kerim start here (For Phone) */
+    .contanier{
+        height: 4524px;
+    }
     .section1{
         border: 1px solid black;
-        height: 120vh;
+        /* height: 120vh; */
     }
     .contanier{
         height: 4524px;
@@ -680,8 +752,10 @@ body{
     }
     /*Section1 end here*/
     /* Section7 designed by Kerim start here (For Phone) */
+    
     .section7{
         height: 251px;
+        /* padding: 0; */
     }
     .logo_mobile_white{
     
@@ -1024,7 +1098,7 @@ body{
 }
 
 .section2{
-    height: 90vh !important;
+    /* height: 90vh !important; */
 }
 
 
@@ -1240,12 +1314,12 @@ body{
     }
     
     .section2{
-        height: 90vh !important;
+        /* height: 90vh !important; */
     }
     /* Section2 end here */
     /* Section6 designed by hasanrza start here (For Tablet) */
     .section6{
-        height: 90vh !important;
+        /* height: 90vh !important; */
     }
     .section6container{
         margin-left: 70.66px;
@@ -1318,9 +1392,12 @@ body{
 /*  ---------------- section 2 mobile Hasanrza  ----------------------------------------------------------- */
 
 @media (max-width:375px){
+    .contanier{
+        /* height: 4524px !important; */
+    }
 
     .section2{
-        height: 120vh !important;
+        /* height: 120vh !important; */
     }
     
     .section2container{
@@ -1459,7 +1536,8 @@ body{
 @media(max-width:375px){
 
     .section6{
-        height: 70vh !important;
+        /* height: 70vh !important; */
+        height: 363px !important;
     }
 
     .section6container{
@@ -1526,4 +1604,220 @@ body{
     }
 
 }
+@media (min-width:834px) and (max-width:1280px){
+    .section4{
+        height: 800px;
+    }
+    
+    .section4 .wrapper {
+        margin: 0 49.23px 0 48.65px;
+    }
+    .section4 h1 {
+        max-width: 525px;
+        padding-left: 37px;
+        font-size: 32px;
+    }
+    .container4 .card{
+        margin: 0 23.7px 21.4px 0;
+        max-width: 231px;
+        background: #FFFFFF;
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+    }
+    
+    .container4 .card h3 {
+        display: inline-block;
+        margin: 6.37px 8.11px 0 11.58px;
+        max-width: 211.4px;
+        font-size: 17px;
+    }
+    
+    .card img {
+        width: 100%;
+    }
+    
+    .cd8 h3 {
+        margin: 9.27px 8.11px 0 11.58px;
+    }
+    
+    .card p {
+        margin: 18.53px 8.7px 13.32px 11px;
+        max-width: 211.4px;
+        font-size: 14px;
+    }
+    
+    .cd8 p {
+        margin: 1px 8.7px 13.32px 11px;
+    }  
+    
+    .section5{
+        height: 480px;
+    }
+    
+    .section5 .wrapper {
+        width: 83%;
+        margin: 50px auto;
+    }
+    
+    .section5 h1 {
+        max-width: 571.64px;
+        height: 53.86px;
+        font-size: 32px;
+        margin-bottom: 35px;
+        padding: o 100px 35px 0;
+    }
+    
+    .container5 {
+        margin-left: 5px;
+        max-width: 458.12px;
+        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+        padding: 23.17px 26.64px 16.8px 26px;
+    }
+    
+    .container5 .above {
+        font-size: 12px;
+    }
+    
+    .container5 .low {
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+    }
+    
+    .container5 .low h3 {
+        max-width: 204.45px;
+        height: 34.17px;
+        text-align: left;
+        font-size: 17px;
+        position: relative;
+    }
+
+    .container5 .low img {
+        width: 110px;
+        height: 98px;
+        margin-left: -15px;
+    }
+
+    .container5 .low .div1 .div2 .img2 {
+        width: 18.5px;
+        height: 18px;
+        margin-left: 0;
+    }
+}
+
+@media (min-width:375px) and (max-width:833px) {
+    .section4{
+        border: 1px solid black;
+        width: 100%;
+        height: 1675px;
+    }
+
+    .section4 .wrapper {
+        margin: 0 94px 0 95px;
+        
+    }
+
+    .container4 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 35px;
+    }
+
+    .section4 h1 {
+        justify-content: unset;
+        max-width: 421.7px;
+        text-align: unset;
+        padding-left: unset;
+        font-size: 26px;
+        margin-left: -65px;
+    }
+    .container4 .card{
+        margin: 0 37px 41px 0;
+        max-width: 186px;
+        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+    }
+
+    .container4 .card h3 {
+        display: inline-block;
+        margin: 5.1px 6.5px 0 9.3px;
+        max-width: 170px;
+        font-size: 14px;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .cd8 h3 {
+        margin: 7.5px 6.5px 0 9.3px;
+    }
+
+    .card p {
+        margin: 15px 7px 10.7px 8.8px;
+        max-width: 170px;
+        font-size: 12px;
+    }
+
+    .cd8 p {
+        margin: 1px 7px 10.7px 8.8px;
+    }  
+
+    /* Namiq branch section 5 */
+
+    .section5{
+        height: 430px;
+    }
+
+    .section5 .wrapper {
+        width: 83%;
+        margin: 42px auto;
+    }
+
+    .section5 h1 {
+        max-width: 257px;
+        height: 69px;
+        font-size: 26px;
+        margin-bottom: 35px;
+        padding: unset;
+    }
+
+    .container5 {
+        max-width: 308px;
+        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+        padding: 18.5px 21px 13px 21px;
+    }
+
+    .container5 .above {
+        font-size: 10px;
+    }
+
+    .container5 .low {
+        display: flex;
+        margin-top: 5px;
+        align-items: center;
+    }
+
+    .container5 .low h3 {
+        max-width: 164.5px;
+        height: 32.7px;
+        text-align: left;
+        font-size: 14px;
+        position: relative;
+    }
+
+    .container5 .low img {
+        width: 80px;
+        height: 84px;
+    }
+
+    .container5 .low .div1 .div2 .img2 {
+        width: 15px;
+        height: 17px;
+    }
+}
+
+/*--------------------------------------------------  Namiq wrapper ending  ---------------------------------------*/
 
