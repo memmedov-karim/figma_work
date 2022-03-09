@@ -4,6 +4,29 @@
 body{
     font-family: Roboto;
 }
+.par{
+    background: #1E4681;
+    border-radius: 5px;
+    
+}
+.span_phone{
+    color: #FFFFFF;
+}
+.span_mail{
+    color: #FFFFFF;
+}
+.date{
+    color: #FFFFFF;
+}
+.section7{
+    background: #000000;
+}
+.par2{
+    color: #FFFFFF;
+}
+.par3{
+    color: #FFFFFF;
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -13,10 +36,15 @@ body{
     /* height: 100vh; */
     width: 100%;
 }
-.sec{
-    /* height: 150vh; */
-}
+/* .sec{
+    height: 150vh;
+} */
 /*---------------------Section1 designed by Kerim start here (For Laptop)------------------------*/
+/* 
+@media screen and (min-width:1280px) { */
+    
+
+
 .nav{
     display: flex;
     justify-content: start;
@@ -160,8 +188,10 @@ body{
 }
 .section1{
     border: 1px solid black;
-    /* height: 165vh; */
+    height: 1000px;
 }
+/* } */
+
 /*-------------------------------------Section1 end here-----------------------------------------*/
 .section2{
     border: 1px solid black;
@@ -171,84 +201,10 @@ body{
 }
 
 /*---------------------Section4 designed by Namiq start here ( For Laptop )----------------------*/
-
-/* .section4{
-    border: 1px solid black;
-    width: 100%;
-    height: 205vh;
-}
-
-.wrapper {
-    margin: 0 5.9% 0 5.8%;
-}
-
-.container4 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.section4 h1 {
-    margin: 0 28.75% 6.6% 8.4%;
-    width: 62.8%;
-    height: 6.5%;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 55px;
-    line-height: 101.38%;
-    color: #000000;
-}
-.container4 .card{
-    margin: 2.6%;
-    width: 27.7%;
-    background: #FFFFFF;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-}
-
-.container4 .card h3 {
-    display: inline-block;
-    margin: 2.8% 3.5% 0 5%;
-    width: 91.5%;
-    height: 9.8%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 130%;
-    color: #000000;
-}
-
-.card img {
-    width: 100%;
-}
-
-.cd8 h3 {
-    margin: 4% 3.5% 0px 5%;
-    line-height: 97%;
-    max-height: 17.7%;
-}
-
-.card p {
-    margin: 8% 3.8% 5.8% 4.8%;
-    max-width: 91.5%;
-    max-height: 15.8%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 130%;
-    color: #000000;
-}
-
-.cd8 p {
-    margin: 1px 3.7% 5.8% 4.8%;
-} */
-
 .section4{
     border: 1px solid black;
     width: 100%;
-    /* height: 198vh; */
+    height: 1200px;
 }
 
 .section4 .wrapper {
@@ -312,7 +268,8 @@ body{
 
 .cd8 p {
     margin: 1px 15px 23px 19px;
-} 
+}
+
 
 /*---------------------------------------Section4 end here---------------------------------------*/
 
@@ -320,13 +277,12 @@ body{
 /* Namiq branch section 5 */
 .section5{
     border: 1px solid black;
-    background: #EFEFEF;
-    /* height: 130vh; */
+    background-color: EFEFEF;
+    height: 130vh;
 }
 
-.wrapper {
+.section5 .wrapper {
     width: 83%;
-    /* height: 100vh; */
     margin: 50px auto;
 }
 
@@ -380,6 +336,9 @@ body{
     border: 1px solid black;
 }
 /*--------------------Section7 designed by Kerim for laptop ( start here )-----------------------*/
+/* @media  screen and (min-width:1280px) { */
+    
+
 .section7{
     border: 1px solid black;
     height: 390px;
@@ -467,41 +426,43 @@ body{
     line-height: 101.38%;
     color: #FFFFFF
 }
+/* } */
 /*----------------------------------Section7 end here--------------------------------------------*/
 /*---------------------------------Responsive design by Kerim for Tablet-------------------------*/
-@media screen and (max-width:834px) {
+@media (min-width:834px) and (max-width:1280px) {
     /* Section1 designed by Kerim start here (For Tablet) */
     .section1{
         border: 1px solid black;
         /* height: 100vh; */
+        height: 600px;
     }
     .contanier{
         height: 3800px;
     }
     .logo1{
-        width: 64.87px;
+        width: 7.77%;
         height: 38.23px;
-        margin-left: 70.08px;
+        margin-left: 8.4%;
         margin-top: 22px;
     }
     .nav{
-        margin-left: 70.08px;
+        margin-left: 8.4%;
         margin-top: 56.18px;
     }
     .globe{
-        width: 12.74px;
+        width: 1.5%;
         height: 12.16px;
-        margin-right: 4.63px;
+        margin-right: 0.8%;
     }
     .clock{
-        width: 12.74px;
+        width: 1.45%;
         height: 12.74px;
-        margin-right: 5.79px;
+        margin-right: 0.8%;
     }
     .calendar{
-        width: 11.58px;
+        width: 1.38%;
         height: 12.74px;
-        margin-right: 7.53px;
+        margin-right: 0.9%;
     }
     .span1{
         width: 75.29px;
@@ -521,9 +482,9 @@ body{
         font-size: 12px;
     }
     .h1_1{
-        width: 363.72px;
+        width: 94%;
         height: 110.04px;
-        margin-left: 70.66px;
+        margin-left: 16%;
         margin-top: 7.53px;
         font-size: 46px;
         line-height: 101.38%;
@@ -535,7 +496,7 @@ body{
         font-size: 12px;
     }
     .image_man{
-        margin-left: 81.8px;
+        margin-left: 12%;
     }
     .man{
         
@@ -549,21 +510,21 @@ body{
         height: 23.75px;
     }
     .par{
-        width: 280.11px;
+        width: 33.5%;
         height: 115.83px;
         margin-top: 39.17px;
         border-radius: 2.9px;
-        margin-left: 237.1px;
+        margin-left: 28.41%;
     }
     .par2{
-        margin-left: 15.08px;
+        margin-left: 5.3%;
         margin-top: 11.15px;
         width: 249.38px;
         height: 65.45px;
         font-size: 14px;
     }
     .par3{
-        margin-left: 108.22px;
+        margin-left: 38.7%;
         margin-top: 8.6px;
         width: 162.46px;
         height: 26.43px;
@@ -574,9 +535,18 @@ body{
     .section7{
         height: 225.88px;
     }
+    .kk{
+        width: 96%;
+    }
+    /* .k{
+        margin-left:8.47%;
+    } */
+    /* .kk1{
+        width: 40%;
+    } */
     
     .logo_mobile_white{
-        width: 66.6px;
+        width: 66px;
         height: 39.38px;
         margin-left: 70.66px;
         margin-top: 28.96px;
@@ -644,7 +614,7 @@ body{
 }
 /*-------------------------------Responsive designed by Kerim For Tablet----------------------- */
 /*------------------Responsive designewd by Kerim for Mobile Phone----------------------------- */
-@media screen and  (max-width:375px) {
+@media (min-width:375px) and  (max-width:834px) {
     /* Section1 designed by Kerim start here (For Phone) */
     .contanier{
         height: 4524px;
@@ -652,45 +622,48 @@ body{
     .section1{
         border: 1px solid black;
         /* height: 120vh; */
+        height: 680px;
     }
     .contanier{
         height: 4524px;
     }
     .logo1{
-        width: 52.19px;
-        height: 30.75px;
-        margin-left: 35px;
-        margin-top: 36px;
+        width: 14.1%;
+        height: 7.5vh;
+        margin-left: 9.3%;
+        margin-top: 9.4%;
     }
     .nav{
-        margin-left: 35px;
+        margin-left: 9.3%;
         margin-top: 45.2px;
     }
     .globe{
         width: 10.25px;
         height: 9.79px;
-        margin-right: 3.73px;
+        margin-right: 0.99%;
     }
     .clock{
         width: 10.25px;
         height: 10.25px;
-        margin-right: 4.66px;
+        margin-right: 1.24%;
+        margin-left: 1.2%;
     }
     .calendar{
         width: 9.32px;
         height: 10.25px;
-        margin-right: 6.06px;
+        margin-right: 1.61%;
     }
     .span1{
         width: 60.58px;
         height: 14.91px;
-        margin-right: 11.65px;
+        margin-right: 3.1%;
         font-size: 10px;
     }
     .span2{
         width: 60.58px;
         height: 14.91px;
         font-size: 10px;
+        margin-right: 2.7%;
     }
     .span3{
         width: 60.58px;
@@ -701,50 +674,52 @@ body{
         display: block;
     }
     .h1_1{
-        width: 292.63px;
+        width: 78.03%;
         height: 88.53px;
-        margin-left: 35.47px;
+        margin-left: 9.45%;
         margin-top: 8.06px;
         font-size: 37px;
         line-height: 101.38%;
     }
     .par1{
-        width: 212.4px;
+        width: 56.64%;
         height: 28.96px;
-        margin-left: 35.74px;
+        margin-left: 9.4%;
         font-size: 10px;
     }
     .image_man{
-        margin-left: 201px;
+        margin-left: 53.6%;
         margin-top: 28px;
     }
     .man{
         
-        width: 141.68px;
+        width: 41%;
+        min-width: 141px;
         height: 175.1px;
     }
     .ellipse_man{
         left: 16px;
         bottom: -5px;
-        width: 127.68px;
+        width: 34.5%;
+        min-width: 127px;
         height: 19.1px;
     }
     .par{
-        width: 225.36px;
-        height: 93.19px;
+        width: 60%;
+        height: 98.19px;
         margin-top: 38.64px;
         border-radius: 2.33px;
-        margin-left: 37.98px;
+        margin-left: 10.1%;
     }
     .par2{
-        margin-left: 12.13px;
+        margin-left: 3.2%;
         margin-top: 8.97px;
-        width: 200.64px;
+        width: 53.5%;
         height: 52.65px;
         font-size: 11px;
     }
     .par3{
-        margin-left: 87.07px;
+        margin-left: 23.2%;
         margin-top: 6.92px;
         width: 130.7px;
         height: 21.27px;
@@ -759,32 +734,32 @@ body{
     }
     .logo_mobile_white{
     
-        width: 53.59px;
+        width: 14.29%;
         height: 31.69px;
-        margin-left: 37.85px;
+        margin-left: 10.09%;
         margin-top: 23.3px;
     }
     .social_media{
-        margin-left: 37.85px;
+        margin-left: 10.09%;
         margin-top: 13.98px;
     }
     .noroot4{
-        width: 15.38px;
+        width: 4.1%;
         height: 15.38px;
-        margin-right: 8.39px;
+        margin-right: 2.23%;
     }
     .fb{
-        width: 14.91px;
+        width: 3.96%;
         height: 14.91px;
-        margin-right: 9.78px;
+        margin-right: 2.6%;
     }
     .vk{
-        width: 16.31px;
+        width: 4.3%;
         height: 16.31px;
-        margin-right: 11.65px;
+        margin-right: 3.1%;
     }
     .wp{
-        width: 15.84px;
+        width: 4.22%;
         height: 15.84px;
     }
     .kk{
@@ -794,7 +769,7 @@ body{
         width: 148.18px;
         height: 41.01px;
         margin-top: 47.66;
-        margin-left:38px ;
+        margin-left:10.1%;
     }
     .white_phone{
         width: 12.58px;
@@ -822,14 +797,20 @@ body{
     .date{
         width: 133.21px;
         height: 23.17px;
-        margin-left: 37.85px;
-        margin-top:48.99px;
+        margin-left: 10.1%;
+        margin-top:80px;
         font-size: 10px;
     }
     /*Section7 end here*/
 }
 /*--------------------------------Responsive designed by Kerim-----------------------------------*/
 /*--------------------------------------------- section2 styles Hasanrza------------------------------------------------- */
+.section2{
+    height: 1000px;
+}
+.section3{
+    height: 1000px;
+}
 .section2container{
     margin-left: 121px;
 }
@@ -1097,9 +1078,7 @@ body{
     margin-left: 32.53px;
 }
 
-.section2{
-    /* height: 90vh !important; */
-}
+
 
 
 
@@ -1313,14 +1292,10 @@ body{
         margin-left: 32.53px;
     }
     
-    .section2{
-        /* height: 90vh !important; */
-    }
+    
     /* Section2 end here */
     /* Section6 designed by hasanrza start here (For Tablet) */
-    .section6{
-        /* height: 90vh !important; */
-    }
+    
     .section6container{
         margin-left: 70.66px;
         margin-top: 103.67px;
@@ -1392,13 +1367,8 @@ body{
 /*  ---------------- section 2 mobile Hasanrza  ----------------------------------------------------------- */
 
 @media (max-width:375px){
-    .contanier{
-        /* height: 4524px !important; */
-    }
+    
 
-    .section2{
-        /* height: 120vh !important; */
-    }
     
     .section2container{
         margin-left: 35px;
@@ -1706,7 +1676,7 @@ body{
     }
 }
 
-@media (min-width:375px) and (max-width:833px) {
+@media (min-width:375px) and (max-width:834px) {
     .section4{
         border: 1px solid black;
         width: 100%;
@@ -1820,4 +1790,8 @@ body{
 }
 
 /*--------------------------------------------------  Namiq wrapper ending  ---------------------------------------*/
-
+@media screen and (max-width:375px) {
+    .contanier{
+        display: none;
+    }
+}
