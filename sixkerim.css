@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100&family=Roboto+Serif:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100&family=Roboto+Serif:wght@500&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto;
+}
+.contanier{
+    width: 100%;
+    border-right: 1px solid black;
+}
+.nav{
+    display: flex;
+    justify-content: start;
+    margin-left: 122px;
+    margin-top: 97px;
+}
+.first_firstsection{
+    display: flex;
+    /* margin-left: 9.4%; */
+}
+.h1_1{
+    width: 628px;
+    height: 190px;
+    margin-left: 122px;
+    margin-top: 29px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 101.38%;
+    color: #000000;
+
+}
+.par1{
+    width: 414px;
+    height: 62px;
+    margin-left:122px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+}
+.par{
+    width: 483.63px;
+    margin-top: 87.62px;
+    height: 200px;
+    background: #1E4681;
+    border-radius: 5px;
+    margin-left: 31.9%;
+}
+.par2{
+    display: inline-block;
+    margin-left: 26.02px;
+    margin-top: 19.26px;
+    width: 430.59px;
+    height: 113px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.par3{
+    display: inline-block;
+    margin-left: 184.61px;
+    margin-top: 22.2px;
+    width: 280.5px;
+    height: 45.64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: right;
+    color: #FFFFFF;
+}
+.man{
+    margin-top: 0;
+    width: 304px;
+    height: 356px;
+    z-index: 1;
+}
+.image_man{
+    position: relative;
+    margin-left: 140px;
+    width: 28.3%;
+
+}
+.ellipse_man{
+    position: absolute;
+    left: 25px;
+    bottom: -15px;
+    z-index: -1;
+    width: 274px;
+    height: 41px;
+}
+.span1{
+    display: inline-block;
+    width: 130px;
+    height: 32px;
+    margin-right: 1.9%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    color: #000000;
+}
+.span2{
+    display: inline-block;
+    width: 130px;
+    height: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    color: #000000;
+}
+.span3{
+    display: inline-block;
+    width: 130px;
+    height: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    color: #000000;
+}
+.globe{
+    width: 22px;
+    height: 21px;
+    margin-right: 0.62%;
+}
+.clock{
+    width: 22px;
+    height: 22px;
+    margin-right: 0.7%;
+}
+.calendar{
+    width: 20px;
+    height: 22px;
+    margin-right: 0.8%;
+}
+.logo1{
+    width: 112px;
+    height: 66px;
+    margin-left: 122px;
+    margin-top: 21px;
+}
+.section1{
+    height: 1000px;
+}
+.section7{
+    height: 390px;
+    background: #000000;
+}
+.kk{
+    display: flex;
+}
+.logo_mobile_white{
+    width: 115px;
+    height: 68px;
+    margin-left: 122px;
+    margin-top: 50px;
+    color: white;
+}
+.white_phone{
+    width: 27px;
+    height: 27px;
+    margin-left: 600px;
+    margin-top: 54px;
+    margin-right: 22px;
+}
+.span_phone{
+    width: 230px;
+    height: 40px;
+    margin-top: 59px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+    color: #FFFFFF;
+}
+.white_mail{
+    width: 27px;
+    height: 18px;
+    margin-left: 600px;
+    margin-top: 25px;
+    margin-right: 22px;
+}
+.span_mail{
+    width: 269px;
+    height: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+    color: #FFFFFF;
+}
+.social_media{
+    display: flex;
+    justify-content: start;
+    margin-left: 122px;
+    margin-top: 30px;
+}
+.noroot4{
+    width: 33px;
+    height: 33px;
+    margin-right: 18px;
+}
+.fb{
+    width: 32px;
+    height: 32px;
+    margin-right: 21px;
+}
+.vk{
+    width: 35px;
+    height: 35px;
+    margin-right: 25px;
+}
+.wp{
+    width: 34px;
+    height: 34px;
+}
+.date{
+    width: 230px;
+    margin-left: 122px;
+    margin-top:146px;
+    height: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 101.38%;
+    color: #FFFFFF
+}
+@media (min-width:834px) and (max-width:1280px) {
+    .section1{
+        height: 600px;
+    }
+    /* .first_firstsection{
+        margin-left: 9.4%;
+    }
+    .header1{
+        margin-left: 0;
+    } */
+    .section1_contanier{
+        margin-left:7.77%;
+        width: 74%;
+    }
+    .contanier{
+        /* height: 3500px; */
+    }
+    .logo1{
+        width: 7.77%;
+        height: 38.23px;
+        margin-left: 0;
+        margin-top: 22px;
+    }
+    .nav{
+        margin-left: 0;
+        margin-top: 56.18px;
+    }
+    .globe{
+        width: 1.5%;
+        height: 12.16px;
+        margin-right: 0.8%;
+    }
+    .clock{
+        width: 1.45%;
+        height: 12.74px;
+        margin-right: 0.8%;
+    }
+    .calendar{
+        width: 1.38%;
+        height: 12.74px;
+        margin-right: 0.9%;
+    }
+    .span1{
+        width: 75.29px;
+        height: 18.53px;
+        margin-right: 14.48px;
+        font-size: 12px;
+    }
+    .span2{
+        width: 75.29px;
+        height: 18.53px;
+        font-family: Roboto;
+        font-size: 12px;
+    }
+    .span3{
+        width: 75.29px;
+        height: 18.53px;
+        font-size: 12px;
+    }
+    .h1_1{
+        width: 94%;
+        height: 110.04px;
+        margin-left: 0;
+        margin-top: 7.53px;
+        font-size: 46px;
+        line-height: 101.38%;
+    }
+    .par1{
+        width: 50%;
+        min-width: 264px;
+        height: 36px;
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .image_man{
+        margin-left: 12%;
+    }
+    .man{
+        
+        width: 176.07px;
+        height: 206.18px;
+    }
+    .ellipse_man{
+        left: 20px;
+        bottom: -8px;
+        width: 158.69px;
+        height: 23.75px;
+    }
+    .par{
+        width: 33.5%;
+        height: 115.83px;
+        margin-top: 39.17px;
+        border-radius: 2.9px;
+        margin-left: 28.41%;
+    }
+    .par2{
+        margin-left: 5.3%;
+        margin-top: 11.15px;
+        width: 249.38px;
+        height: 65.45px;
+        font-size: 14px;
+    }
+    .par3{
+        margin-left: 38.7%;
+        margin-top: 8.6px;
+        width: 57%;
+        height: 26.43px;
+        font-size: 12px;
+    }
+    .section7{
+        height: 225.88px;
+    }
+    .kk{
+        width: 96%;
+    }
+    
+    .logo_mobile_white{
+        width: 66px;
+        height: 39.38px;
+        margin-left: 70.66px;
+        margin-top: 28.96px;
+    }
+    .social_media{
+        margin-left: 70.66px;
+        margin-top: 17.38px;
+    }
+    .noroot4{
+        width: 19.11px;
+        height: 19.11px;
+        margin-right: 10.43px;
+    
+    }
+    .fb{
+        width: 18.53px;
+        height: 18.53px;
+        margin-right: 12.16px;
+    
+    }
+    .vk{
+        width: 20.27px;
+        height: 20.27px;
+        margin-right: 14.48px;
+    
+    }
+    .wp{
+        width: 19.69px;
+        height: 19.69px;
+    
+    }
+    .white_phone{
+        width: 15.64px;
+        height: 15.64px;
+        margin-left: 428px;
+        margin-top: 31.28px;
+        margin-right: 12.74px;
+    }
+    .span_phone{
+        width: 133.21px;
+        height: 23.17px;
+        margin-top: 34.17px;
+        font-size: 14px;
+    }
+    .white_mail{
+        width: 15.64px;
+        height: 10.43px;
+        margin-left: 428px;
+        margin-top: 14.48px;
+        margin-right: 12.74px;
+    }
+    .span_mail{
+        width: 155.8px;
+        height: 23.17px;
+        font-size: 14px;
+    }
+    .date{
+        width: 133.21px;
+        height: 23.17px;
+        margin-left: 70.66px;
+        margin-top:69.39px;
+        font-size: 10px;
+    }
+    
+}
+@media (min-width:375px) and  (max-width:834px) {
+    /* .contanier{
+        height: 4524px;
+    } */
+    body{
+        width: 100vw;
+    }
+    .section1{
+        height: 680px;
+    }
+    .contanier{
+        height: 4524px;
+    }
+    .logo1{
+        width: 14.1%;
+        height: 7.5vh;
+        margin-left: 9.3%;
+        margin-top: 9.4%;
+    }
+    .nav{
+        margin-left: 9.3%;
+        margin-top: 45.2px;
+    }
+    .globe{
+        width: 10.25px;
+        height: 9.79px;
+        margin-right: 0.99%;
+    }
+    .clock{
+        width: 10.25px;
+        height: 10.25px;
+        margin-right: 1.24%;
+        margin-left: 1.2%;
+    }
+    .calendar{
+        width: 9.32px;
+        height: 10.25px;
+        margin-right: 1.61%;
+    }
+    .span1{
+        width: 60.58px;
+        height: 14.91px;
+        margin-right: 3.1%;
+        font-size: 10px;
+    }
+    .span2{
+        width: 60.58px;
+        height: 14.91px;
+        font-size: 10px;
+        margin-right: 2.7%;
+    }
+    .span3{
+        width: 60.58px;
+        height: 14.91px;
+        font-size: 10px;
+    }
+    .first_firstsection{
+        display: block;
+    }
+    .h1_1{
+        width: 78.03%;
+        height: 88.53px;
+        margin-left: 9.45%;
+        margin-top: 8.06px;
+        font-size: 37px;
+        line-height: 101.38%;
+    }
+    .par1{
+        width: 56.64%;
+        height: 28.96px;
+        margin-left: 9.4%;
+        font-size: 10px;
+    }
+    .image_man{
+        margin-left: 53.6%;
+        margin-top: 28px;
+    }
+    .man{
+        
+        width: 41%;
+        min-width: 141px;
+        height: 175.1px;
+    }
+    .ellipse_man{
+        left: 16px;
+        bottom: -5px;
+        width: 34.5%;
+        min-width: 127px;
+        height: 19.1px;
+    }
+    .par{
+        width: 60%;
+        height: 98.19px;
+        margin-top: 38.64px;
+        border-radius: 2.33px;
+        margin-left: 10.1%;
+    }
+    .par2{
+        margin-left: 3.2%;
+        margin-top: 8.97px;
+        width: 53.5%;
+        height: 52.65px;
+        font-size: 11px;
+    }
+    .par3{
+        margin-left: 23.2%;
+        margin-top: 6.92px;
+        width: 130.7px;
+        height: 21.27px;
+        font-size: 10px;
+    }
+    
+    .section7{
+        height: 251px;
+    }
+    .logo_mobile_white{
+    
+        width: 14.29%;
+        min-width: 53.59px;
+        height: 31.69px;
+        margin-left: 10.09%;
+        margin-top: 23.3px;
+    }
+    .social_media{
+        margin-left: 10.09%;
+        margin-top: 13.98px;
+    }
+    .noroot4{
+        width: 4.1%;
+        height: 15.38px;
+        margin-right: 2.23%;
+    }
+    .fb{
+        width: 3.96%;
+        height: 14.91px;
+        margin-right: 2.6%;
+    }
+    .vk{
+        width: 4.3%;
+        height: 16.31px;
+        margin-right: 3.1%;
+    }
+    .wp{
+        width: 4.22%;
+        height: 15.84px;
+    }
+    .foot{
+        display: flex;
+        flex-direction: row;
+    }
+    .kk{
+        display: block;
+    }
+    .kk1{
+        /* width: 16.9%; */
+        height: 41.01px;
+        margin-top: 47.66;
+        margin-left:10.1%;
+    }
+    .white_phone{
+        width: 12.58px;
+        height: 12.58px;
+        margin-right: 10.25px;
+        margin-left: 0px;
+    }
+    .span_phone{
+        /* width: 15.8%; */
+        width: 107px;
+        height: 18.64px;
+        font-size: 12px;
+    }
+    .white_mail{
+        width: 12.58px;
+        height: 8.39px;
+        margin-right: 10.25px;
+        margin-top: 1.4px;
+        margin-left: 0px;
+    }
+    .span_mail{
+        /* width: 125.35px; */
+        width: 17.9%;
+        height: 18.64px;
+        font-size: 12px;
+    }
+    .date{
+        width: 133.21px;
+        height: 23.17px;
+        margin-left: 10.1%;
+        margin-top:99px;
+        margin-bottom: 0;
+        font-size: 10px;
+    }
+}

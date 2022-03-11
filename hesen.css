@@ -1,0 +1,748 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100&family=Roboto+Serif:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100&family=Roboto+Serif:wght@500&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto;
+}
+.contanier{
+    width: 100%;
+}
+.section2{
+    height: 1000px;
+}
+.section3{
+    height: 1130px;
+}
+/*--------------------------------------------- section2 styles Hasanrza------------------------------------------------- */
+/* .section2{
+    height: 120vh;
+} */
+
+.section2container{
+    margin-left: 9.45%;
+    width: 93.12%;
+}
+.parcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sec2h1{
+    width: 30.62%;
+    height: 93px;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 55px;
+    margin-bottom: 18px;
+}
+.sec2par{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    width: 55.53%;
+    max-width: 662px;
+    min-width: 383.41px;
+    height: 374px;
+}
+
+.cameramancontainer{
+    width: 30.70%;
+    min-width: 211.98;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 127px;
+    margin-top: 30px;
+    margin-left: 13.75%;
+}
+
+.cameraman{
+    width: 314px;
+    height: 315px;
+}
+
+.phonecameraman{
+    display: none;
+}
+
+.cameramanellipsis{
+    position: absolute;
+    top: 280px;
+    left: -30px;    
+    z-index: -1;
+}
+
+.sec2endpar{
+    width:84.06% ;
+    margin-top: 94px;
+    margin-bottom: 93.83px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.sec2secondman{
+    width: 23.15%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.sec2lightman{
+    width: 232px;
+    height: 203px;
+}
+.sec2ellipsis33{
+    position: absolute;
+    width: 189px;
+    height: 32px;
+    top: 185px;
+    left: 35px;
+    z-index: -1;
+}
+
+.sec2headspars{
+    margin-left: 13.17%;
+    width: 63.37%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 132px;
+    margin-top: 70px;
+}
+
+.sec2headsparsfirst{
+    width: 23.51%;
+    height: 79px;
+}
+
+.sec2headsparssecond{
+    margin-left: 14.89%;
+    width: 23.51%;
+    height: 79px;
+}
+
+.sec2headsparsthird{
+    margin-left: 14.57%;
+    width: 23.51%;
+    height: 79px;
+}
+
+.sec2firstheading{
+    width: 100%;
+    height: 39px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sec2firstpar{
+    width: 100%;
+    height: 39px;
+    font-family: Roboto;
+    font-size: 18px;
+}
+.sec2secondheading{
+    width: 100%;
+    height: 39px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sec2secondpar{
+    width: 100%;
+    height: 39px;
+    font-family: Roboto;
+    font-size: 18px;
+}
+.sec2thirdheading{
+    width: 100%;
+    height: 39px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 25px;
+}
+.sec2thirdpar{
+    width: 100%;
+    height: 39px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+/*----------------------------section 2 tablet layout ---------------------------------------------------- */
+@media (min-width:834px) and (max-width: 1280px){
+    .section2{
+        height: 600px;
+    }
+
+.section2container{
+    margin-left: 8.40%;
+    width: 82.77%;
+}
+.sec2h1{
+    width: 30.62%;
+    height: 53.86px;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 10.42px;
+}
+
+.parcontent{
+    width: 100%;
+}
+
+.sec2par{
+    height: 216.61px;
+    width: 55.53%;
+}
+
+.sec2par p{
+    width: 383.41px;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.cameramancontainer{
+    width: 30.70%;
+    position: relative;
+    width: 181.86px;
+    height: 182.44px;
+    margin-left: 13.75%;
+    margin-top: 0px;
+}
+
+.cameraman{
+    width: 181.86px;
+    height: 182.44px;
+}
+
+.phonecameraman{
+    display: none;
+}
+.cameramanellipsis{
+    width: 211.98px;
+    height: 34.17px;
+    position: absolute;
+    top: 165px;
+    left: -15.06px;
+}
+
+.sec2endpar{
+    width: 84.06%;
+    height: 126.84px;
+    margin-top: 54.44px;
+    margin-bottom: 93.83px;
+}
+
+.sec2secondman{
+    width: 23.15%;
+    height: 117.57px;
+    position: relative;
+}
+
+.sec2lightman{
+    width: 134.37px;
+    height: 117.57px;
+}
+
+.sec2ellipsis33{
+    width: 109.46px;
+    height: 18.53px;
+    position: absolute;
+    left: 20px;
+    top: 110px;
+}
+
+.sec2headspars{
+    width: 63.67%;
+    height: 45.95;
+    margin-left: 76.45px;
+    margin-top: 42px;
+}
+
+.sec2firstheading{
+    width: 100%;
+    height: 22.59px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sec2firstpar{
+    width: 100%;
+    height: 22.59px;
+    font-family: Roboto;
+    font-size: 11px;
+}
+
+.sec2secondheading{
+    width: 80.28%;
+    height: 22.59px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sec2secondpar{
+    width: 99.80%;
+    height: 23px;
+    font-family: Roboto;
+    font-size: 11px;
+}
+
+.sec2thirdheading{
+    width: 100%;
+    height: 22.59px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sec2thirdpar{
+    width: 100%;
+    height: 22.59px;
+    font-family: Roboto;
+    font-size: 11px;
+}
+
+.sec2headsparsfirst{
+    width: 23.51%;
+}
+
+.sec2headsparssecond{
+    margin-left: 14.88%;
+    width: 29.28%;
+}
+
+.sec2headsparsthird{
+    margin-left: 8.80%;
+    width: 23.51%;
+}
+
+
+
+}
+
+
+
+/*  ---------------- section 2 mobile Hasanrza  ----------------------------------------------------------- */
+
+@media (min-width:375px) and (max-width:834px){
+
+.section2{
+    height: 733px !important;
+}
+
+.section2container{
+    width: 82.52%;
+    margin-left: 9.33%;
+}
+
+
+.sec2h1{
+    width: 54.95%;
+    height: 43.34px;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.parcontent{
+    width: 99.67%;
+    height: 390.57px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec2par{
+    width: 100%;
+    height: 174.27px;
+    min-width: unset;
+    max-width: unset;
+}
+
+.sec2par p{
+    font-family: Roboto;
+    font-size: 12px;
+    width: 308.47px;
+}
+
+.cameramancontainer{
+    width: 55.28%;
+    height: 160.29px;
+    margin-left: 21%;
+}
+
+.phonecameraman{
+    display: block !important;
+    width: 170.55px;
+    height: 160.29px;
+}
+
+.cameraman{
+    display: none;
+}
+
+.cameramanellipsis{
+    display: none;
+}
+
+.sec2secondman{
+    display: none;
+}
+
+.sec2lightman{
+    display: none;
+}
+
+.sec2ellipsis33{
+    display: none;
+}
+
+.sec2headspars{
+    margin-left: 0px;
+    /* margin-right: 133.76px; */
+    margin-top: 0px;
+    width: 66.63%;
+    max-width: 206.22px;
+    height: 108px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sec2headsparsfirst{
+    width: 41.70%;
+    max-width: 86px;
+    height: 37px;
+    margin-bottom: 34px;
+
+}
+
+.sec2headsparssecond{
+    width: 42.21%;
+    max-width: 87.06px;
+    height: 36.97px;
+    margin-left: 16.07%;
+}
+
+.sec2headsparsthird{
+    width: 36.85%;
+    max-width: 76px;
+    height: 37px;
+    margin-left: 0px;
+}
+
+.sec2firstheading{
+    width: 69.9px;
+    height: 18.17px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 12px;
+}
+.sec2firstpar{
+    width: 86px;
+    height: 18px;
+    font-family: Roboto;
+    font-size: 10px;
+}
+.sec2secondheading{
+    width: 69.9px;
+    height: 18.17px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.sec2secondpar{
+    width: 86.89px;
+    height: 18.5px;
+    font-family: Roboto;
+    font-size: 10px;
+}
+.sec2thirdheading{
+    width: 69.9px;
+    height: 18.17px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 12px;
+}
+.sec2thirdpar{
+    width: 76px;
+    height: 18px;
+    font-family: Roboto;
+    font-size: 10px;
+}
+
+}
+
+
+
+
+
+/* ------------------------------- section2 end here ------------------------------------------- */
+
+
+
+
+
+
+
+
+/* ------------------------------- section 6 styles Hasanrza ----------------------------------- */ 
+.section6{
+    height: 780px !important;
+    background: #9DC9C8;
+}
+
+.sec6header1{
+    width: 100%;
+    /* height: 66px; */
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.sec6par{
+    width: 18.72%;
+    height: 32px;
+    font-family: Roboto;
+    font-size: 25px;
+    margin-top: 54px;
+}
+
+.sec6header2{
+    width: 52.97%;
+    height: 181px;
+    font-family: Roboto;
+    font-size: 80px;
+}
+
+.sec6commonpars{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 75.55%;
+    height: 111px;
+    margin-bottom: 185px;
+}
+
+.sec6par1{
+    width: 42.85%;
+    max-width: 294px;
+    height: 32px;
+    font-family: Roboto;
+    font-size: 25px;
+    margin-bottom: 9px;
+}
+
+.sec6par2{
+    width: 46.93%;
+    max-width: 322px;
+    height: 32px;
+    font-family: Roboto;
+    font-size: 25px;
+    margin-left: 10.20%;
+    margin-bottom: 9px;
+}
+
+.sec6par3{
+    width: 42.85%;
+    max-width: 294px;
+    height: 70px;
+    font-family: Roboto;
+    font-size: 18px;
+
+}
+.sec6par4{
+    width: 42.85%;
+    max-width: 294px;
+    height: 70px;
+    font-family: Roboto;
+    font-size: 18px;
+    margin-left: 10.20%;
+}
+
+.section6container{
+    margin-left: 9.45%;
+    margin-top: 179px;
+    width: 70.93%;
+    padding-top: 179px;
+}
+
+/*  --------------------- tablet section 6 design -----------------------------------------------------------*/
+@media(min-width:834px) and (max-width: 1280px){
+.section6{
+    height:488px !important;
+}
+.section6container{
+    margin-left: 8.47%;
+    margin-top: 103.67px;
+    width: 63.05%;
+    padding-top: 103.67px;
+}
+
+.sec6header1{
+    width: 100%;
+    height: 38.23px;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 31.27px;
+}
+
+.sec6par{
+    width: 18.72%;
+    height: 18.53px;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.sec6header2{
+    width: 52.97%;
+    height: 104.83px;
+    font-family: Roboto;
+    font-size: 46px;
+}
+
+.sec6commonpars{
+    max-width: 397.31px;
+    width: 75.55%;
+    height: 64.29px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sec6par1{
+    width: 42.85%;
+    max-width: 170.28px;
+    height: 18.53px;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.sec6par2{
+    width: 46.93%;
+    max-width: 186.49px;
+    height: 18.53px;
+    font-family: Roboto;
+    font-size: 14px;
+    margin-left: 10.20%;
+}
+
+.sec6par3{
+    width: 42.85%;
+    max-width: 170.28px;
+    height: 40.54px;
+    font-family: Roboto;
+    font-size: 10px;
+    margin-top: 5.21px;
+    margin-left: 0;
+}
+
+.sec6par4{
+    width: 42.85%;
+    max-width: 170.28px;
+    height: 40.54px;
+    font-family: Roboto;
+    font-size: 10px;
+    margin-left: 10.20%;
+}
+
+}
+
+
+/* ------------------------------- section 6 mobile Hasanrza ------------------------------------- */
+@media (min-width:375px) and (max-width:834px){
+
+    .section6{
+        height:412px !important;
+    }
+
+    .section6container{
+        margin-left: 9.02%;
+        width: 85.37%;
+        /* height: 238px; */
+        margin-top: 62px;
+        margin-bottom: 63px;
+        padding-top: 62px;
+    }
+
+    .sec6header1{
+        width: 69.96%;
+        max-width: 224px;
+        height: 63px;
+        font-family: Roboto Slab;
+        font-weight: bold;
+        font-size: 26px;
+    }
+
+    .sec6par{
+        width: 24.74%;
+        height: 14.91px;
+        font-family: Roboto;
+        font-size: 12px;
+        margin-top: 22.33px;
+    }
+
+    .sec6header2{
+        width: 70%;
+        height: 84.34px;
+        font-family: Roboto;
+        font-size: 37px;
+    }
+
+    .sec6commonpars{
+        width: 99.95%;
+        max-width: 320px;
+        margin-bottom: 63px;
+    }
+
+    .sec6par1{
+        width: 42.81%;
+        max-width: 137px;
+        /* height: 14.91px; */
+        font-family: Roboto;
+        font-size: 12px;
+        margin-bottom: 4.56px;
+    }
+
+    .sec6par2{
+        width: 47.18%;
+        max-width: 151px;
+        /* height: 14px; */
+        font-family: Roboto;
+        font-size: 12px;
+        margin-left: 31.16px;
+    }
+
+    .sec6par3{
+        width: 43.12%;
+        max-width: 138px;
+        /* height: 47px; */
+        font-family: Roboto;
+        font-size: 10px;
+        margin-top: 4.56px;
+    }
+
+    .sec6par4{
+        width: 43.75%;
+        max-width: 140px;
+        /* height: 38px; */
+        font-family: Roboto;
+        font-size: 10px;
+        margin-top: 5px;
+        margin-left: 31px;
+    }
+
+}
+/*  --------------- section 6 end here --------------------------------------------------------  */
