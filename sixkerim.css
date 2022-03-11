@@ -10,7 +10,6 @@ body{
 }
 .contanier{
     width: 100%;
-    border-right: 1px solid black;
 }
 .nav{
     display: flex;
@@ -20,7 +19,7 @@ body{
 }
 .first_firstsection{
     display: flex;
-    /* margin-left: 9.4%; */
+    
 }
 .h1_1{
     width: 628px;
@@ -249,18 +248,9 @@ body{
     .section1{
         height: 600px;
     }
-    /* .first_firstsection{
-        margin-left: 9.4%;
-    }
-    .header1{
-        margin-left: 0;
-    } */
     .section1_contanier{
         margin-left:7.77%;
         width: 74%;
-    }
-    .contanier{
-        /* height: 3500px; */
     }
     .logo1{
         width: 7.77%;
