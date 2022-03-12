@@ -6,7 +6,7 @@
     padding: 0;
 }
 body{
-    font-family: Roboto;
+    font-family: 'Roboto';
 }
 .contanier{
     width: 100%;
@@ -36,13 +36,13 @@ body{
 .sec2h1{
     width: 30.62%;
     height: 93px;
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab';
     font-weight: bold;
     font-size: 55px;
     margin-bottom: 18px;
 }
 .sec2par{
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -54,7 +54,7 @@ body{
 
 .cameramancontainer{
     width: 30.70%;
-    min-width: 211.98;
+    /*min-width: 211.98;*/
     position: relative;
     display: flex;
     flex-direction: column;
@@ -137,7 +137,7 @@ body{
 .sec2firstheading{
     width: 100%;
     height: 39px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 25px;
 }
@@ -145,13 +145,13 @@ body{
 .sec2firstpar{
     width: 100%;
     height: 39px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 18px;
 }
 .sec2secondheading{
     width: 100%;
     height: 39px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 25px;
 }
@@ -159,20 +159,20 @@ body{
 .sec2secondpar{
     width: 100%;
     height: 39px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 18px;
 }
 .sec2thirdheading{
     width: 100%;
     height: 39px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 25px;
 }
 .sec2thirdpar{
     width: 100%;
     height: 39px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: normal;
     font-size: 18px;
 }
@@ -190,7 +190,7 @@ body{
 .sec2h1{
     width: 30.62%;
     height: 53.86px;
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab';
     font-weight: bold;
     font-size: 32px;
     margin-bottom: 10.42px;
@@ -207,7 +207,7 @@ body{
 
 .sec2par p{
     width: 383.41px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 14px;
 }
 
@@ -264,7 +264,7 @@ body{
 
 .sec2headspars{
     width: 63.67%;
-    height: 45.95;
+    /*height: 45.95;*/
     margin-left: 76.45px;
     margin-top: 42px;
 }
@@ -272,7 +272,7 @@ body{
 .sec2firstheading{
     width: 100%;
     height: 22.59px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 15px;
 }
@@ -280,14 +280,14 @@ body{
 .sec2firstpar{
     width: 100%;
     height: 22.59px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 11px;
 }
 
 .sec2secondheading{
     width: 80.28%;
     height: 22.59px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 15px;
 }
@@ -295,14 +295,14 @@ body{
 .sec2secondpar{
     width: 99.80%;
     height: 23px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 11px;
 }
 
 .sec2thirdheading{
     width: 100%;
     height: 22.59px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 15px;
 }
@@ -310,7 +310,7 @@ body{
 .sec2thirdpar{
     width: 100%;
     height: 22.59px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 11px;
 }
 
@@ -351,7 +351,7 @@ body{
 .sec2h1{
     width: 54.95%;
     height: 43.34px;
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab';
     font-weight: bold;
     font-size: 26px;
 }
@@ -371,7 +371,7 @@ body{
 }
 
 .sec2par p{
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 12px;
     width: 308.47px;
 }
@@ -445,20 +445,20 @@ body{
 .sec2firstheading{
     width: 69.9px;
     height: 18.17px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 12px;
 }
 .sec2firstpar{
     width: 86px;
     height: 18px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 10px;
 }
 .sec2secondheading{
     width: 69.9px;
     height: 18.17px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 12px;
 }
@@ -466,20 +466,20 @@ body{
 .sec2secondpar{
     width: 86.89px;
     height: 18.5px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 10px;
 }
 .sec2thirdheading{
     width: 69.9px;
     height: 18.17px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 12px;
 }
 .sec2thirdpar{
     width: 76px;
     height: 18px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 10px;
 }
 
@@ -507,7 +507,7 @@ body{
 .sec6header1{
     width: 100%;
     /* height: 66px; */
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab';
     font-weight: bold;
     font-size: 55px;
 }
@@ -515,7 +515,7 @@ body{
 .sec6par{
     width: 18.72%;
     height: 32px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 25px;
     margin-top: 54px;
 }
@@ -523,7 +523,7 @@ body{
 .sec6header2{
     width: 52.97%;
     height: 181px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 80px;
 }
 
@@ -540,7 +540,7 @@ body{
     width: 42.85%;
     max-width: 294px;
     height: 32px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 25px;
     margin-bottom: 9px;
 }
@@ -549,7 +549,7 @@ body{
     width: 46.93%;
     max-width: 322px;
     height: 32px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 25px;
     margin-left: 10.20%;
     margin-bottom: 9px;
@@ -559,7 +559,7 @@ body{
     width: 42.85%;
     max-width: 294px;
     height: 70px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 18px;
 
 }
@@ -567,7 +567,7 @@ body{
     width: 42.85%;
     max-width: 294px;
     height: 70px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 18px;
     margin-left: 10.20%;
 }
@@ -594,7 +594,7 @@ body{
 .sec6header1{
     width: 100%;
     height: 38.23px;
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab';
     font-weight: bold;
     font-size: 32px;
     margin-bottom: 31.27px;
@@ -603,14 +603,14 @@ body{
 .sec6par{
     width: 18.72%;
     height: 18.53px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 14px;
 }
 
 .sec6header2{
     width: 52.97%;
     height: 104.83px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 46px;
 }
 
@@ -626,7 +626,7 @@ body{
     width: 42.85%;
     max-width: 170.28px;
     height: 18.53px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 14px;
 }
 
@@ -634,7 +634,7 @@ body{
     width: 46.93%;
     max-width: 186.49px;
     height: 18.53px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 14px;
     margin-left: 10.20%;
 }
@@ -643,7 +643,7 @@ body{
     width: 42.85%;
     max-width: 170.28px;
     height: 40.54px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 10px;
     margin-top: 5.21px;
     margin-left: 0;
@@ -653,7 +653,7 @@ body{
     width: 42.85%;
     max-width: 170.28px;
     height: 40.54px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 10px;
     margin-left: 10.20%;
 }
@@ -681,7 +681,7 @@ body{
         width: 69.96%;
         max-width: 224px;
         height: 63px;
-        font-family: Roboto Slab;
+        font-family: 'Roboto Slab';
         font-weight: bold;
         font-size: 26px;
     }
@@ -689,7 +689,7 @@ body{
     .sec6par{
         width: 24.74%;
         height: 14.91px;
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-size: 12px;
         margin-top: 22.33px;
     }
@@ -697,7 +697,7 @@ body{
     .sec6header2{
         width: 70%;
         height: 84.34px;
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-size: 37px;
     }
 
@@ -711,7 +711,7 @@ body{
         width: 42.81%;
         max-width: 137px;
         /* height: 14.91px; */
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-size: 12px;
         margin-bottom: 4.56px;
     }
@@ -720,7 +720,7 @@ body{
         width: 47.18%;
         max-width: 151px;
         /* height: 14px; */
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-size: 12px;
         margin-left: 31.16px;
     }
@@ -729,7 +729,7 @@ body{
         width: 43.12%;
         max-width: 138px;
         /* height: 47px; */
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-size: 10px;
         margin-top: 4.56px;
     }
@@ -738,7 +738,7 @@ body{
         width: 43.75%;
         max-width: 140px;
         /* height: 38px; */
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-size: 10px;
         margin-top: 5px;
         margin-left: 31px;
