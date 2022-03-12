@@ -6,7 +6,7 @@
     padding: 0;
 }
 body{
-    font-family: Roboto;
+    font-family: 'Roboto';
 }
 .contanier{
     width: 100%;
@@ -18,7 +18,7 @@ body{
 .sec3mainheading{
     width: 68.41%;
     height: 93px;
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab';
     font-weight: bold;
     font-size: 55px;
 }
@@ -40,7 +40,7 @@ body{
 .sec3firstheading{
     width: 150px;
     height: 39px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 25px;
     color: #1E4681;
@@ -49,7 +49,7 @@ body{
 .sec3firstpar{
     width: 223px;
     height: 39px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 18px;
 }
 
@@ -61,7 +61,7 @@ body{
 .sec3secondheading{
     width: 214px;
     height: 39px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 25px;
     color: #1E4681;
@@ -70,7 +70,7 @@ body{
 .sec3secondpar{
     width: 271px;
     height: 109px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 18px;
 }
 
@@ -81,7 +81,7 @@ body{
 .sec3thirdheading{
     width: 150px;
     height: 39px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 25px;
     color: #1E4681;
@@ -89,14 +89,14 @@ body{
 .sec3thirdpar{
     width: 245px;
     height: 39px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 18px;
 }
 
 .sec3secondmainheading{
     width: 68.41%;
     height: 93px;
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab';
     font-weight: bold;
     font-size: 55px;
     margin-bottom: 21px;
@@ -105,7 +105,7 @@ body{
 .sec3listingcontainer{
     width: 69.53%;
     height: 374px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 24px;
 }
 
@@ -126,7 +126,7 @@ body{
     .sec3mainheading{
         width: 68.40%;
         height: 53.86px;
-        font-family: Roboto Slab;
+        font-family: 'Roboto Slab';
         font-weight: bold;
         font-size: 32px;
     }
@@ -154,7 +154,7 @@ body{
     .sec3firstheading{
         width: 86.88px;
         height: 22.59px;
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-weight: bold;
         font-size: 15px;
     }
@@ -162,14 +162,14 @@ body{
     .sec3firstpar{
         width: 153px;
         height: 22px;
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-size: 11px;
     }
     
     .sec3secondheading{
         width: 123.94px;
         height: 22.59px;
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-weight: bold;
         font-size: 15px;
     }
@@ -177,14 +177,14 @@ body{
     .sec3secondpar{
         width: 172px;
         height: 63px;
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-size: 11px;
     }
     
     .sec3thirdheading{
         width: 86.88px;
         height: 22.59px;
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-weight: bold;
         font-size: 15px;
     }
@@ -192,14 +192,14 @@ body{
     .sec3thirdpar{
         width: 141.9px;
         height: 22.59px;
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-size: 11px;
     }
     
     .sec3secondmainheading{
         width: 68.40%;
         height: 53.86px;
-        font-family: Roboto Slab;
+        font-family: 'Roboto Slab';
         font-weight: bold;
         font-size: 32px;
     }
@@ -207,7 +207,7 @@ body{
     .sec3listingcontainer{
         width: 69.53%;
         height: 216.61px;
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-size: 14px;
     }
     
