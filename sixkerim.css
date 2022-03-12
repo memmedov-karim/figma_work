@@ -6,7 +6,7 @@
     padding: 0;
 }
 body{
-    font-family: Roboto;
+    font-family: 'Roboto';
 }
 .contanier{
     width: 100%;
@@ -26,7 +26,7 @@ body{
     height: 190px;
     margin-left: 122px;
     margin-top: 29px;
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: bold;
     font-size: 80px;
@@ -38,7 +38,7 @@ body{
     width: 414px;
     height: 62px;
     margin-left:122px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -59,7 +59,7 @@ body{
     margin-top: 19.26px;
     width: 430.59px;
     height: 113px;
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
@@ -72,7 +72,7 @@ body{
     margin-top: 22.2px;
     width: 280.5px;
     height: 45.64px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -105,7 +105,7 @@ body{
     width: 130px;
     height: 32px;
     margin-right: 1.9%;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -116,7 +116,7 @@ body{
     display: inline-block;
     width: 130px;
     height: 32px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -127,7 +127,7 @@ body{
     display: inline-block;
     width: 130px;
     height: 32px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -183,7 +183,7 @@ body{
     width: 230px;
     height: 40px;
     margin-top: 59px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
@@ -200,7 +200,7 @@ body{
 .span_mail{
     width: 269px;
     height: 40px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
@@ -237,7 +237,7 @@ body{
     margin-left: 122px;
     margin-top:146px;
     height: 40px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -286,7 +286,7 @@ body{
     .span2{
         width: 75.29px;
         height: 18.53px;
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-size: 12px;
     }
     .span3{
@@ -574,7 +574,7 @@ body{
     .kk1{
         /* width: 16.9%; */
         height: 41.01px;
-        margin-top: 47.66;
+        /*margin-top: 47.66;*/
         margin-left:10.1%;
     }
     .white_phone{
