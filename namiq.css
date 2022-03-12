@@ -6,7 +6,7 @@
     padding: 0;
 }
 body{
-    font-family: Roboto;
+    font-family: 'Roboto';
 }
 .contanier{
     width: 100%;
@@ -32,7 +32,7 @@ body{
     max-width: 905px;
     text-align: left;
     padding-left: 37px;
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab';
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
@@ -50,7 +50,7 @@ body{
     display: inline-block;
     margin: 11px 14px 0 20px;
     max-width: 365px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-size: 25px;
     line-height: 130%;
@@ -69,7 +69,7 @@ body{
 .card p {
     margin: 32px 15px 23px 19px;
     max-width: 365px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: normal;
     font-size: 20px;
     line-height: 130%;
@@ -81,7 +81,7 @@ body{
 }
 .section5{
     /* border: 1px solid black; */
-    background-color: EFEFEF;
+    background-color: #EFEFEF;
     /* height: 130vh; */
 }
 
@@ -93,13 +93,13 @@ body{
 .section5 h1 {
     max-width: 987px;
     height: 90px;
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab';
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
     color: #000000;
     margin-bottom: 35px;
-    padding: o 100px 35px 0;
+    padding: 0 100px 35px 0;
 }
 
 .container5 {
@@ -111,7 +111,7 @@ body{
 }
 
 .container5 .above {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: normal;
     font-size: 20px;
     line-height: 150%;
@@ -128,7 +128,7 @@ body{
     max-width: 353px;
     height: 50px;
     text-align: left;
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab';
     font-weight: bold;
     font-size: 30px;
     line-height: 101.38%;
@@ -189,7 +189,7 @@ body{
         height: 53.86px;
         font-size: 32px;
         margin-bottom: 35px;
-        padding: o 100px 35px 0;
+        padding: 0 100px 35px 0;
     }
     
     .container5 {
