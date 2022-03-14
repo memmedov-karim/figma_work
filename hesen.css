@@ -532,6 +532,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     width: 75.55%;
+    max-width: 668px;
     height: 111px;
     margin-bottom: 185px;
 }
